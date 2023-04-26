@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.1. Login - konsumen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>84cfc06b-c7be-46b2-b887-4ad6884b21e1</testCaseGuid>
+   <variable>
+      <defaultValue>'testkatalon1@sharklasers.com'</defaultValue>
+      <description></description>
+      <id>70f8aea9-33d5-4813-8be0-a219b8da8c00</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>1acefb9c-2a80-4bb8-ae44-3cf7cd32ddb5</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+</TestCaseEntity>

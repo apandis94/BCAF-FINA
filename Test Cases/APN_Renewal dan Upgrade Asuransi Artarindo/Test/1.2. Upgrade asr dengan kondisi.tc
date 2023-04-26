@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.2. Upgrade asr dengan kondisi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>067db9d2-3a3e-4c16-a1e6-13e5446be570</testCaseGuid>
+   <variable>
+      <defaultValue>'N'</defaultValue>
+      <description></description>
+      <id>03100c4e-094e-46f4-a8ac-9bba66ea724a</id>
+      <masked>false</masked>
+      <name>upgrade_asr</name>
+   </variable>
+</TestCaseEntity>

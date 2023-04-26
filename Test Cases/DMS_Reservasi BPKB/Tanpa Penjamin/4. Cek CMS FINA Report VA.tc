@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4. Cek CMS FINA Report VA</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef9d8709-73fc-4127-92a7-c757caaa9f0b</testCaseGuid>
+   <variable>
+      <defaultValue>'revbpkb2@sharklasers.com'</defaultValue>
+      <description></description>
+      <id>bb376758-7dc2-4905-bbe1-3be3c713ff99</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>156608de-7ca1-49b1-bb42-061c0584445b</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'0010001731001'</defaultValue>
+      <description></description>
+      <id>6835eba2-fb9e-4371-83e9-daae4672a4e1</id>
+      <masked>false</masked>
+      <name>FINA_nokontrak</name>
+   </variable>
+</TestCaseEntity>

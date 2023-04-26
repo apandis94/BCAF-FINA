@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+FINA - API Payment,,,,2022-06-28 13:51:07,2022-06-28 13:51:20,12.527s,PASSED
+,,,,,,,
+Test Cases/DMS_FINA_API/FINA_Payment_VA,,,,2022-06-28 13:51:08,2022-06-28 13:51:12,3.837s,PASSED
+"payment = sendRequest(findTestObject(""DMS_FINA_API/Payment VA"", [""c_code"":c_code, ""cust_no"":cust_no, ""req_id"":req_id, ""channel_type"":channel_type, ""cust_name"":cust_name, ""paid_amount"":paid_amount, ... ]))",,call service payment VA,,2022-06-28 13:51:09,2022-06-28 13:51:12,2.664s,PASSED
+response = payment.getResponseText(),,show response to report in test suite,,2022-06-28 13:51:12,2022-06-28 13:51:12,0.017s,PASSED
+"markPassed(""result payment data ke : "" + no)",,,,2022-06-28 13:51:12,2022-06-28 13:51:12,0.027s,PASSED
+logInfo($response),,,,2022-06-28 13:51:12,2022-06-28 13:51:12,0.072s,PASSED
+,,,,,,,
+Test Cases/DMS_FINA_API/FINA_Payment_VA,,,,2022-06-28 13:51:12,2022-06-28 13:51:13,1.000s,PASSED
+"payment = sendRequest(findTestObject(""DMS_FINA_API/Payment VA"", [""c_code"":c_code, ""cust_no"":cust_no, ""req_id"":req_id, ""channel_type"":channel_type, ""cust_name"":cust_name, ""paid_amount"":paid_amount, ... ]))",,call service payment VA,,2022-06-28 13:51:12,2022-06-28 13:51:13,0.950s,PASSED
+response = payment.getResponseText(),,show response to report in test suite,,2022-06-28 13:51:13,2022-06-28 13:51:13,0.002s,PASSED
+"markPassed(""result payment data ke : "" + no)",,,,2022-06-28 13:51:13,2022-06-28 13:51:13,0.005s,PASSED
+logInfo($response),,,,2022-06-28 13:51:13,2022-06-28 13:51:13,0.003s,PASSED
+,,,,,,,
+Test Cases/DMS_FINA_API/FINA_Payment_VA,,,,2022-06-28 13:51:14,2022-06-28 13:51:15,1.381s,PASSED
+"payment = sendRequest(findTestObject(""DMS_FINA_API/Payment VA"", [""c_code"":c_code, ""cust_no"":cust_no, ""req_id"":req_id, ""channel_type"":channel_type, ""cust_name"":cust_name, ""paid_amount"":paid_amount, ... ]))",,call service payment VA,,2022-06-28 13:51:14,2022-06-28 13:51:15,1.345s,PASSED
+response = payment.getResponseText(),,show response to report in test suite,,2022-06-28 13:51:15,2022-06-28 13:51:15,0.001s,PASSED
+"markPassed(""result payment data ke : "" + no)",,,,2022-06-28 13:51:15,2022-06-28 13:51:15,0.003s,PASSED
+logInfo($response),,,,2022-06-28 13:51:15,2022-06-28 13:51:15,0.003s,PASSED
+,,,,,,,
+Test Cases/DMS_FINA_API/FINA_Payment_VA,,,,2022-06-28 13:51:15,2022-06-28 13:51:16,0.562s,PASSED
+"payment = sendRequest(findTestObject(""DMS_FINA_API/Payment VA"", [""c_code"":c_code, ""cust_no"":cust_no, ""req_id"":req_id, ""channel_type"":channel_type, ""cust_name"":cust_name, ""paid_amount"":paid_amount, ... ]))",,call service payment VA,,2022-06-28 13:51:15,2022-06-28 13:51:16,0.528s,PASSED
+response = payment.getResponseText(),,show response to report in test suite,,2022-06-28 13:51:16,2022-06-28 13:51:16,0.001s,PASSED
+"markPassed(""result payment data ke : "" + no)",,,,2022-06-28 13:51:16,2022-06-28 13:51:16,0.005s,PASSED
+logInfo($response),,,,2022-06-28 13:51:16,2022-06-28 13:51:16,0.003s,PASSED
+,,,,,,,
+Test Cases/DMS_FINA_API/FINA_Payment_VA,,,,2022-06-28 13:51:16,2022-06-28 13:51:19,2.716s,PASSED
+"payment = sendRequest(findTestObject(""DMS_FINA_API/Payment VA"", [""c_code"":c_code, ""cust_no"":cust_no, ""req_id"":req_id, ""channel_type"":channel_type, ""cust_name"":cust_name, ""paid_amount"":paid_amount, ... ]))",,call service payment VA,,2022-06-28 13:51:16,2022-06-28 13:51:19,2.684s,PASSED
+response = payment.getResponseText(),,show response to report in test suite,,2022-06-28 13:51:19,2022-06-28 13:51:19,0.001s,PASSED
+"markPassed(""result payment data ke : "" + no)",,,,2022-06-28 13:51:19,2022-06-28 13:51:19,0.002s,PASSED
+logInfo($response),,,,2022-06-28 13:51:19,2022-06-28 13:51:19,0.002s,PASSED
+,,,,,,,
+Test Cases/DMS_FINA_API/FINA_Payment_VA,,,,2022-06-28 13:51:19,2022-06-28 13:51:20,0.790s,PASSED
+"payment = sendRequest(findTestObject(""DMS_FINA_API/Payment VA"", [""c_code"":c_code, ""cust_no"":cust_no, ""req_id"":req_id, ""channel_type"":channel_type, ""cust_name"":cust_name, ""paid_amount"":paid_amount, ... ]))",,call service payment VA,,2022-06-28 13:51:19,2022-06-28 13:51:20,0.768s,PASSED
+response = payment.getResponseText(),,show response to report in test suite,,2022-06-28 13:51:20,2022-06-28 13:51:20,0.001s,PASSED
+"markPassed(""result payment data ke : "" + no)",,,,2022-06-28 13:51:20,2022-06-28 13:51:20,0.002s,PASSED
+logInfo($response),,,,2022-06-28 13:51:20,2022-06-28 13:51:20,0.001s,PASSED

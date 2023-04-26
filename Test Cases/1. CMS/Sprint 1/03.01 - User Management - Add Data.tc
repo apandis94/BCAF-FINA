@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03.01 - User Management - Add Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a83a1314-134b-4680-8070-abcd34cf43f2</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.FINA_username_Add</defaultValue>
+      <description></description>
+      <id>16577bf6-7adc-41a6-aab2-072863aff44c</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+</TestCaseEntity>

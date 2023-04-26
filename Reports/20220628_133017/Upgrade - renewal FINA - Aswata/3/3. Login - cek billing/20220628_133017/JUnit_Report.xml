@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3. Login - cek billing" time="136.083" tests="2" failures="1" errors="0">
+   <testsuite name="3. Login - cek billing" tests="2" failures="1" errors="0" time="136.083" skipped="0" timestamp="2022-06-28 13:30:31" hostname="Nia Yusniati - Apandi.mshome.net" id="Test Suites/Upgrade - renewal FINA - Aswata/3/3. Login - cek billing">
+      <properties>
+         <property name="deviceName" value="samsung SM-M315F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017\\appium.log, C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.1-input username dan password.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.2-berhasil login.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.10-list billing belum dibayar.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.11-list billing sudah dibayar.png, C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017\\1656397963811.png, C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017\\1656397964761.png"/>
+         <property name="hostName" value="Nia Yusniati - Apandi.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="SM-M315F"/>
+         <property name="hostAddress" value="192.168.137.70"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N605F11Y"/>
+         <property name="deviceName" value="samsung SM-M315F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.1. Login - konsumen" time="48.316" classname="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.1. Login - konsumen" status="PASSED">
+         <system-out><![CDATA[2022-06-28 13:30:31 - [TEST_CASE][PASSED] - Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.1. Login - konsumen: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.1. Login - konsumen
+
+2022-06-28 13:30:33 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-06-28 13:30:33 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android", STOP_ON_FAILURE): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:30:36 - [MESSAGE][INFO] - Appium server started on port 54,235
+
+2022-06-28 13:30:51 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:30:51 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2022-06-28 13:30:59 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-06-28 13:30:59 - [TEST_STEP][PASSED] - element = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-06-28 13:31:00 - [TEST_STEP][PASSED] - element.click(): null
+
+2022-06-28 13:31:00 - [TEST_STEP][PASSED] - setText(findTestObject("DMS_FINA_Mobile/FINA_Login/Login_Text"), findTestData("DMS_Asr_Cakpro").getObjectValue("Login", 13), 0): Text 'ending@mailinator.com' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Text'
+
+2022-06-28 13:31:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:31:03 - [MESSAGE][PASSED] - Text 'ending@mailinator.com' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Text'
+
+2022-06-28 13:31:03 - [TEST_STEP][PASSED] - setText(findTestObject("DMS_FINA_Mobile/FINA_Login/Login_Password_Text"), findTestData("DMS_Asr_Cakpro").getObjectValue("Pass", 13), 0): Text '123abc' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Password_Text'
+
+2022-06-28 13:31:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:31:04 - [MESSAGE][PASSED] - Text '123abc' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Password_Text'
+
+2022-06-28 13:31:04 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-3.1-input username dan password" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:31:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:31:07 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.1-input username dan password.png]]
+
+2022-06-28 13:31:07 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Login/FINA_Login_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/FINA_Login_Button'
+
+2022-06-28 13:31:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:31:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/FINA_Login_Button'
+
+2022-06-28 13:31:08 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-06-28 13:31:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-06-28 13:31:13 - [TEST_STEP][PASSED] - elementAccount = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-06-28 13:31:15 - [TEST_STEP][PASSED] - elementAccount.click(): null
+
+2022-06-28 13:31:15 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 13:31:17 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 13:31:17 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-3.2-berhasil login" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:31:19 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:31:19 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.2-berhasil login.png]]
+
+2022-06-28 13:31:19 - [TEST_STEP][PASSED] - elementHome = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Home_Button"), 10): null
+
+2022-06-28 13:31:20 - [TEST_STEP][PASSED] - elementHome.click(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar" time="85.516" classname="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar" status="FAILED">
+         <failure type="FAILED" message="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)
+"/>
+         <system-out><![CDATA[2022-06-28 13:31:20 - [TEST_CASE][FAILED] - Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)
+
+
+2022-06-28 13:31:21 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-06-28 13:31:21 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android", STOP_ON_FAILURE): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:31:31 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:31:31 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2022-06-28 13:31:40 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-06-28 13:31:40 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-28 13:31:40 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-28 13:31:40 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK'
+
+2022-06-28 13:31:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:31:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK'
+
+2022-06-28 13:31:43 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Billing_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Billing_Button'
+
+2022-06-28 13:31:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:31:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Billing_Button'
+
+2022-06-28 13:31:44 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-06-28 13:32:04 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-06-28 13:32:04 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-3.10-list billing belum dibayar" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:32:06 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:32:06 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.10-list billing belum dibayar.png]]
+
+2022-06-28 13:32:06 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar'
+
+2022-06-28 13:32:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:32:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar'
+
+2022-06-28 13:32:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 13:32:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 13:32:09 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-3.11-list billing sudah dibayar" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:32:11 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:32:11 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-3.11-list billing sudah dibayar.png]]
+
+2022-06-28 13:32:11 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar'
+
+2022-06-28 13:32:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:32:13 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar'
+
+2022-06-28 13:32:13 - [TEST_STEP][FAILED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button"), 0): Failed to tap on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)
+)
+
+2022-06-28 13:32:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:32:44 - [MESSAGE][FAILED] - Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+[[ATTACHMENT|C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017\\1656397963811.png]]
+
+2022-06-28 13:32:45 - [MESSAGE][FAILED] - Failed to tap on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)
+)
+[[ATTACHMENT|C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_133017\\Upgrade - renewal FINA - Aswata\\3\\3. Login - cek billing\\20220628_133017\\1656397964761.png]]]]></system-out>
+         <system-err><![CDATA[2022-06-28 13:31:20 - [TEST_CASE][FAILED] - Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-28 13:30:31 - [TEST_SUITE][FAILED] - 3. Login - cek billing: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)]]></system-out>
+      <system-err><![CDATA[2022-06-28 13:30:31 - [TEST_SUITE][FAILED] - 3. Login - cek billing: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 3/3.4. Billing belum dibayar FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Object Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button not found
+	at com.kms.katalon.core.keyword.internal.KeywordMain.stepFailed(KeywordMain.groovy:50)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.stepFailed(MobileKeywordMain.groovy:40)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.doCall(TapKeyword.groovy:79)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword$_tap_closure1.call(TapKeyword.groovy)
+	at com.kms.katalon.core.mobile.keyword.internal.MobileKeywordMain.runKeyword(MobileKeywordMain.groovy:21)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.tap(TapKeyword.groovy:86)
+	at com.kms.katalon.core.mobile.keyword.builtin.TapKeyword.execute(TapKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords.tap(MobileBuiltInKeywords.groovy:1355)
+	at com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords$tap$2.call(Unknown Source)
+	at 3.4. Billing belum dibayar.run(3.4. Billing belum dibayar:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:430)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:421)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:400)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:392)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:273)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:202)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:164)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:105)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:185)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1656397817467.run(TempTestSuite1656397817467.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>

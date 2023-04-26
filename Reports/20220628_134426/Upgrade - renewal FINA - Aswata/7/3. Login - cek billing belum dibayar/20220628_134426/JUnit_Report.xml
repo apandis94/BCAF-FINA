@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="3. Login - cek billing belum dibayar" time="161.049" tests="2" failures="0" errors="0">
+   <testsuite name="3. Login - cek billing belum dibayar" tests="2" failures="0" errors="0" time="161.049" skipped="0" timestamp="2022-06-28 13:45:15" hostname="Nia Yusniati - Apandi.mshome.net" id="Test Suites/Upgrade - renewal FINA - Aswata/7/3. Login - cek billing belum dibayar">
+      <properties>
+         <property name="deviceName" value="samsung SM-M315F (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_134426\\Upgrade - renewal FINA - Aswata\\7\\3. Login - cek billing belum dibayar\\20220628_134426"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_134426\\Upgrade - renewal FINA - Aswata\\7\\3. Login - cek billing belum dibayar\\20220628_134426\\appium.log, C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220628_134426\\Upgrade - renewal FINA - Aswata\\7\\3. Login - cek billing belum dibayar\\20220628_134426\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.1-input username dan password.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.2-berhasil login.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.10-list billing belum dibayar.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.11-list billing sudah dibayar.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.12-detail billing belum dibayar.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.13-kirim email billing.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.14-dokumen terkirim.png"/>
+         <property name="hostName" value="Nia Yusniati - Apandi.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="SM-M315F"/>
+         <property name="hostAddress" value="192.168.137.70"/>
+         <property name="deviceManufacturer" value="samsung"/>
+         <property name="deviceId" value="RR8N605F11Y"/>
+         <property name="deviceName" value="samsung SM-M315F (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.1. Login - konsumen" time="53.058" classname="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.1. Login - konsumen" status="PASSED">
+         <system-out><![CDATA[2022-06-28 13:45:16 - [TEST_CASE][PASSED] - Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.1. Login - konsumen: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.1. Login - konsumen
+
+2022-06-28 13:45:17 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-06-28 13:45:17 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android", STOP_ON_FAILURE): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:45:21 - [MESSAGE][INFO] - Appium server started on port 55,514
+
+2022-06-28 13:45:36 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:45:36 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2022-06-28 13:45:45 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-06-28 13:45:45 - [TEST_STEP][PASSED] - element = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-06-28 13:45:47 - [TEST_STEP][PASSED] - element.click(): null
+
+2022-06-28 13:45:47 - [TEST_STEP][PASSED] - setText(findTestObject("DMS_FINA_Mobile/FINA_Login/Login_Text"), findTestData("DMS_Asr_Cakpro").getObjectValue("Login", 29), 0): Text 'triovita@mailinator.com' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Text'
+
+2022-06-28 13:45:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:45:50 - [MESSAGE][PASSED] - Text 'triovita@mailinator.com' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Text'
+
+2022-06-28 13:45:50 - [TEST_STEP][PASSED] - setText(findTestObject("DMS_FINA_Mobile/FINA_Login/Login_Password_Text"), findTestData("DMS_Asr_Cakpro").getObjectValue("Pass", 29), 0): Text '123abc' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Password_Text'
+
+2022-06-28 13:45:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:45:52 - [MESSAGE][PASSED] - Text '123abc' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Password_Text'
+
+2022-06-28 13:45:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.1-input username dan password" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:45:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:45:56 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.1-input username dan password.png]]
+
+2022-06-28 13:45:57 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Login/FINA_Login_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/FINA_Login_Button'
+
+2022-06-28 13:45:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:45:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/FINA_Login_Button'
+
+2022-06-28 13:45:57 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-06-28 13:45:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 13:45:59 - [TEST_STEP][PASSED] - elementAccount = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-06-28 13:46:04 - [TEST_STEP][PASSED] - elementAccount.click(): null
+
+2022-06-28 13:46:04 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 13:46:06 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 13:46:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.2-berhasil login" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:46:08 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:46:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.2-berhasil login.png]]
+
+2022-06-28 13:46:08 - [TEST_STEP][PASSED] - elementHome = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Home_Button"), 10): null
+
+2022-06-28 13:46:09 - [TEST_STEP][PASSED] - elementHome.click(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.4. Billing belum dibayar" time="105.983" classname="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.4. Billing belum dibayar" status="PASSED">
+         <system-out><![CDATA[2022-06-28 13:46:09 - [TEST_CASE][PASSED] - Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.4. Billing belum dibayar: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.4. Billing belum dibayar
+
+2022-06-28 13:46:10 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-06-28 13:46:10 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android", STOP_ON_FAILURE): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:46:21 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-06-28 13:46:21 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2022-06-28 13:46:29 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-06-28 13:46:29 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-28 13:46:29 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-28 13:46:29 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK'
+
+2022-06-28 13:46:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:46:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK'
+
+2022-06-28 13:46:31 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Billing_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Billing_Button'
+
+2022-06-28 13:46:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:46:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Billing_Button'
+
+2022-06-28 13:46:32 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-06-28 13:46:52 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-06-28 13:46:52 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.10-list billing belum dibayar" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:46:54 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:46:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.10-list billing belum dibayar.png]]
+
+2022-06-28 13:46:54 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar'
+
+2022-06-28 13:46:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:46:57 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar'
+
+2022-06-28 13:46:57 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 13:46:59 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 13:46:59 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.11-list billing sudah dibayar" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:47:01 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:47:01 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.11-list billing sudah dibayar.png]]
+
+2022-06-28 13:47:01 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar'
+
+2022-06-28 13:47:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:47:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar'
+
+2022-06-28 13:47:03 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button'
+
+2022-06-28 13:47:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:47:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button'
+
+2022-06-28 13:47:05 - [TEST_STEP][PASSED] - delay(20): Delayed 20 second(s)
+
+2022-06-28 13:47:25 - [MESSAGE][PASSED] - Delayed 20 second(s)
+
+2022-06-28 13:47:25 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.12-detail billing belum dibayar" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:47:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:47:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.12-detail billing belum dibayar.png]]
+
+2022-06-28 13:47:27 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Email_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Email_Button'
+
+2022-06-28 13:47:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:47:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Email_Button'
+
+2022-06-28 13:47:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-06-28 13:47:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-06-28 13:47:30 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.13-kirim email billing" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:47:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:47:32 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.13-kirim email billing.png]]
+
+2022-06-28 13:47:32 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Kirim_email_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Kirim_email_Button'
+
+2022-06-28 13:47:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-06-28 13:47:34 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Kirim_email_Button'
+
+2022-06-28 13:47:34 - [TEST_STEP][PASSED] - delay(9): Delayed 9 second(s)
+
+2022-06-28 13:47:43 - [MESSAGE][PASSED] - Delayed 9 second(s)
+
+2022-06-28 13:47:43 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.14-dokumen terkirim" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-06-28 13:47:45 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-06-28 13:47:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-7.14-dokumen terkirim.png]]
+
+2022-06-28 13:47:45 - [TEST_STEP][NOT_RUN] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Download_Button"), 0): NOT_RUN: tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Download_Button"), 0)
+
+2022-06-28 13:47:45 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Download_Button"), 0)
+
+2022-06-28 13:47:45 - [TEST_STEP][NOT_RUN] - delay(5): NOT_RUN: delay(5)
+
+2022-06-28 13:47:45 - [MESSAGE][NOT_RUN] - NOT_RUN: delay(5)
+
+2022-06-28 13:47:45 - [TEST_STEP][NOT_RUN] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.15-dokumen tersimpan" + ".png", STOP_ON_FAILURE): NOT_RUN: takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.15-dokumen tersimpan" + ".png", STOP_ON_FAILURE)
+
+2022-06-28 13:47:45 - [MESSAGE][NOT_RUN] - NOT_RUN: takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-7.15-dokumen tersimpan" + ".png", STOP_ON_FAILURE)
+
+2022-06-28 13:47:45 - [TEST_STEP][NOT_RUN] - tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/android_Save Doc_Button"), 0): NOT_RUN: tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/android_Save Doc_Button"), 0)
+
+2022-06-28 13:47:45 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("DMS_FINA_Mobile/FINA_Billing/android_Save Doc_Button"), 0)
+
+2022-06-28 13:47:45 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-28 13:47:46 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-28 13:47:46 - [TEST_STEP][PASSED] - pressBack(): Press back button successfully
+
+2022-06-28 13:47:47 - [MESSAGE][PASSED] - Press back button successfully
+
+2022-06-28 13:47:47 - [TEST_STEP][PASSED] - Account = findElement(findTestObject("Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-06-28 13:47:49 - [TEST_STEP][PASSED] - Account.click(): null
+
+2022-06-28 13:47:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+2022-06-28 13:47:55 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-28 13:45:15 - [TEST_SUITE][PASSED] - 3. Login - cek billing belum dibayar: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 7/7.4. Billing belum dibayar]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02 - Role</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ce4ef819-5752-4f8c-b19b-a8ff84124041</testCaseGuid>
+   <variable>
+      <defaultValue>'ADMIN'</defaultValue>
+      <description></description>
+      <id>b8bfe6af-3360-4553-87dd-d1b255d6a2ba</id>
+      <masked>false</masked>
+      <name>FINA_Rolename</name>
+   </variable>
+</TestCaseEntity>

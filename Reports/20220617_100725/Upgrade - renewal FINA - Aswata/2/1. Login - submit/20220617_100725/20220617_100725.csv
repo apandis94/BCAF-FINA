@@ -1,0 +1,66 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Login - submit,,,,2022-06-17 10:07:40,2022-06-17 10:10:44,3m - 3.885s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 2/2.1. Login - konsumen,,,,2022-06-17 10:07:40,2022-06-17 10:08:33,52.807s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-17 10:07:42,2022-06-17 10:07:42,0.005s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-17 10:07:42,2022-06-17 10:07:59,17.824s,PASSED
+delay(8),,,,2022-06-17 10:07:59,2022-06-17 10:08:07,8.119s,PASSED
+delay(2),,,,2022-06-17 10:08:07,2022-06-17 10:08:10,2.035s,PASSED
+"element = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-17 10:08:10,2022-06-17 10:08:11,1.815s,PASSED
+element.click(),,,,2022-06-17 10:08:11,2022-06-17 10:08:12,0.179s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Login"", 7), 0)",,,,2022-06-17 10:08:12,2022-06-17 10:08:15,3.047s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Password_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Pass"", 7), 0)",,,,2022-06-17 10:08:15,2022-06-17 10:08:16,1.799s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.1-input username dan password"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:08:16,2022-06-17 10:08:20,3.303s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/FINA_Login_Button""), 0)",,set user login,,2022-06-17 10:08:20,2022-06-17 10:08:20,0.701s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-06-17 10:08:20,2022-06-17 10:08:25,5.018s,PASSED
+"elementAccount = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-17 10:08:25,2022-06-17 10:08:29,3.837s,PASSED
+elementAccount.click(),,,,2022-06-17 10:08:29,2022-06-17 10:08:29,0.098s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.2-berhasil login"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:08:29,2022-06-17 10:08:33,3.207s,PASSED
+"elementHome = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Home_Button""), 10)",,,,2022-06-17 10:08:33,2022-06-17 10:08:33,0.551s,PASSED
+elementHome.click(),,,,2022-06-17 10:08:33,2022-06-17 10:08:33,0.073s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 2/2.2. Upgrade Asuransi,,,,2022-06-17 10:08:33,2022-06-17 10:10:44,2m - 10.516s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-17 10:08:34,2022-06-17 10:08:34,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-17 10:08:34,2022-06-17 10:08:45,10.474s,PASSED
+delay(8),,,,2022-06-17 10:08:45,2022-06-17 10:08:53,8.019s,PASSED
+pressBack(),,,,2022-06-17 10:08:53,2022-06-17 10:08:54,0.907s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK""), 0)",,,,2022-06-17 10:08:54,2022-06-17 10:08:54,0.855s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Mobile_Main Menu/FINA_Menu_More_Button""), 0)",,,,2022-06-17 10:08:54,2022-06-17 10:08:55,0.865s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Menu_More Menu/Features/FINA_More_UpgradeAsr_Button""), 0)",,,,2022-06-17 10:08:55,2022-06-17 10:08:56,1.136s,PASSED
+delay(30),,,,2022-06-17 10:08:56,2022-06-17 10:09:26,30.008s,PASSED
+"tap(findTestObject(""APN_Fina New Versi/List Data/Upgrade 1-1""), 0)",,,,2022-06-17 10:09:26,2022-06-17 10:09:27,0.722s,PASSED
+delay(10),,,,2022-06-17 10:09:27,2022-06-17 10:09:37,10.025s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.3-list kendaraan"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:09:37,2022-06-17 10:09:39,2.175s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Tenor4_Checkbox""), 0)",,,,2022-06-17 10:09:39,2022-06-17 10:09:40,0.829s,PASSED
+delay(2),,,,2022-06-17 10:09:40,2022-06-17 10:09:42,2.014s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.4-pilih tenor"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:09:42,2022-06-17 10:09:44,2.035s,PASSED
+"Lanjutkan1 = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Lanjutkan_Button""), 10)",,,,2022-06-17 10:09:44,2022-06-17 10:09:45,0.808s,PASSED
+Lanjutkan1.click(),,,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.080s,PASSED
+"""start""",,,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.002s,PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in device_height variable,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.003s,NOT_RUN
+device_Width = getDeviceWidth(),,Get Width Height and Store in device_Width variable,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.003s,NOT_RUN
+startX = device_Width / 2,,Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.002s,NOT_RUN
+endX = startX,,Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.003s,NOT_RUN
+startY = device_Height * 0.30,,Storing the startY value,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.001s,NOT_RUN
+endY = device_Height * 0.70,,Storing the endY value,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.001s,NOT_RUN
+"swipe(startX, endY, endX, startY)",,Swipe Vertical from top to bottom,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.001s,NOT_RUN
+"comment(""end"")",,,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.001s,NOT_RUN
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Perluasan_RSCC4_Checkbox""), 0)",,,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.002s,NOT_RUN
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Perluasan_TJH10_4_Checkbox""), 0)",,,,2022-06-17 10:09:45,2022-06-17 10:09:45,0.002s,NOT_RUN
+delay(20),,,,2022-06-17 10:09:45,2022-06-17 10:10:05,20.008s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.5-pilih jenis upgrade"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:10:05,2022-06-17 10:10:07,1.738s,PASSED
+"Lanjutkan2 = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_PilihAsuransidanPerluasan_Lanjutkan_Button""), 10)",,,,2022-06-17 10:10:07,2022-06-17 10:10:08,0.695s,PASSED
+Lanjutkan2.click(),,,,2022-06-17 10:10:08,2022-06-17 10:10:08,0.075s,PASSED
+delay(10),,,,2022-06-17 10:10:08,2022-06-17 10:10:18,10.007s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.6-konfirmasi upgrade"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:10:18,2022-06-17 10:10:20,1.958s,PASSED
+"Submit = findElement(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Konfirmasi_Submit_Button""), 10)",,,,2022-06-17 10:10:20,2022-06-17 10:10:20,0.556s,PASSED
+Submit.click(),,,,2022-06-17 10:10:20,2022-06-17 10:10:20,0.075s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Konfirmasi_Ya_Button""), 0)",,,,2022-06-17 10:10:20,2022-06-17 10:10:21,0.958s,PASSED
+delay(10),,,,2022-06-17 10:10:21,2022-06-17 10:10:31,10.016s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-2.7-proses submit berhasil"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-17 10:10:31,2022-06-17 10:10:33,1.784s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Submit_Kembali_Button""), 0)",,,,2022-06-17 10:10:33,2022-06-17 10:10:34,0.656s,PASSED
+pressBack(),,,,2022-06-17 10:10:34,2022-06-17 10:10:35,1.812s,PASSED
+pressBack(),,,,2022-06-17 10:10:35,2022-06-17 10:10:37,1.867s,PASSED
+"Account = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-17 10:10:37,2022-06-17 10:10:39,1.265s,PASSED
+Account.click(),,,,2022-06-17 10:10:39,2022-06-17 10:10:39,0.079s,PASSED
+delay(5),,,,2022-06-17 10:10:39,2022-06-17 10:10:44,5.007s,PASSED

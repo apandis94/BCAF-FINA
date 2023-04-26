@@ -1,0 +1,61 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Login - submit,,,,2022-06-27 09:34:24,2022-06-27 09:37:24,3m - 0.152s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 9.11/11.1. Login - konsumen,,,,2022-06-27 09:34:24,2022-06-27 09:35:26,1m - 1.633s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-27 09:34:26,2022-06-27 09:34:26,0.005s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-27 09:34:26,2022-06-27 09:34:48,22.094s,PASSED
+delay(8),,,,2022-06-27 09:34:48,2022-06-27 09:34:56,8.111s,PASSED
+"element = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-27 09:34:56,2022-06-27 09:34:58,1.807s,PASSED
+element.click(),,,,2022-06-27 09:34:58,2022-06-27 09:34:58,0.218s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Login"", 47), 0)",,,,2022-06-27 09:34:58,2022-06-27 09:35:02,3.753s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Password_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Pass"", 47), 0)",,,,2022-06-27 09:35:02,2022-06-27 09:35:03,1.444s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-11.1-input username dan password"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:35:03,2022-06-27 09:35:08,4.197s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/FINA_Login_Button""), 0)",,set user login,,2022-06-27 09:35:08,2022-06-27 09:35:09,0.918s,PASSED
+"delay(0, STOP_ON_FAILURE)",,,,2022-06-27 09:35:09,2022-06-27 09:35:09,0.008s,PASSED
+"scrollToText(""Suku Bunga"", STOP_ON_FAILURE)",,,,2022-06-27 09:35:09,2022-06-27 09:35:20,11.222s,PASSED
+"elementAccount = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-27 09:35:20,2022-06-27 09:35:21,0.849s,PASSED
+elementAccount.click(),,,,2022-06-27 09:35:21,2022-06-27 09:35:21,0.086s,PASSED
+delay(2),,,,2022-06-27 09:35:21,2022-06-27 09:35:23,2.060s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-11.2-berhasil login"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:35:23,2022-06-27 09:35:25,2.389s,PASSED
+"elementHome = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Home_Button""), 10)",,,,2022-06-27 09:35:25,2022-06-27 09:35:26,0.740s,PASSED
+elementHome.click(),,,,2022-06-27 09:35:26,2022-06-27 09:35:26,0.114s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 9.11/11.2. Renewal Asuransi,,,,2022-06-27 09:35:26,2022-06-27 09:37:24,1m - 57.865s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-27 09:35:27,2022-06-27 09:35:27,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-27 09:35:27,2022-06-27 09:35:39,11.652s,PASSED
+delay(8),,,,2022-06-27 09:35:39,2022-06-27 09:35:47,8.020s,PASSED
+pressBack(),,,,2022-06-27 09:35:47,2022-06-27 09:35:47,0.445s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK""), 0)",,,,2022-06-27 09:35:47,2022-06-27 09:35:50,2.672s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Mobile_Main Menu/FINA_Menu_More_Button""), 0)",,,,2022-06-27 09:35:50,2022-06-27 09:35:52,2.005s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Menu_More Menu/Features/FINA_More_RenewalAsr_Button""), 0)",,,,2022-06-27 09:35:52,2022-06-27 09:35:53,1.419s,PASSED
+delay(30),,,,2022-06-27 09:35:53,2022-06-27 09:36:23,30.016s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransiraksa + ""skenario-12.3-list kendaraan"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:36:23,2022-06-27 09:36:26,2.530s,PASSED
+"tap(findTestObject(""APN_Fina New Versi/List Data/Renewal 1-1""), 0)",,,,2022-06-27 09:36:26,2022-06-27 09:36:27,0.965s,PASSED
+delay(10),,,,2022-06-27 09:36:27,2022-06-27 09:36:37,10.011s,PASSED
+"""start""",,,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.003s,PASSED
+device_Height = getDeviceHeight(),,Get Device Height and Store in device_height variable,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.251s,PASSED
+device_Width = getDeviceWidth(),,Get Width Height and Store in device_Width variable,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.249s,PASSED
+startX = device_Width / 2,,Storing the startX value by dividing device width by 2. Because x coordinates are constant for Vertical Swiping,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.007s,PASSED
+endX = startX,,Here startX and endX values are equal for vertical Swiping for that assigning startX value to endX,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.002s,PASSED
+startY = device_Height * 0.30,,Storing the startY value,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.005s,PASSED
+endY = device_Height * 0.70,,Storing the endY value,,2022-06-27 09:36:37,2022-06-27 09:36:37,0.001s,PASSED
+"swipe(startX, endY, endX, startY)",,Swipe Vertical from top to bottom,,2022-06-27 09:36:37,2022-06-27 09:36:39,1.329s,PASSED
+"comment(""end"")",,,,2022-06-27 09:36:39,2022-06-27 09:36:39,0.032s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Renewal_Asuransi/FINA_RenewalAsr_DetailAsr_TLO 3thn_Radiobutton""), 0)",,,,2022-06-27 09:36:39,2022-06-27 09:36:40,1.109s,PASSED
+delay(2),,,,2022-06-27 09:36:40,2022-06-27 09:36:42,2.012s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-11.4-submit renewal"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:36:42,2022-06-27 09:36:44,2.053s,PASSED
+"Lanjutkan = findElement(findTestObject(""DMS_FINA_Mobile/FINA_Renewal_Asuransi/FINA_RenewalAsr_DetailAsr_Lanjutkan_Button""), 10)",,,,2022-06-27 09:36:44,2022-06-27 09:36:45,0.764s,PASSED
+Lanjutkan.click(),,,,2022-06-27 09:36:45,2022-06-27 09:36:45,0.129s,PASSED
+delay(10),,,,2022-06-27 09:36:45,2022-06-27 09:36:55,10.005s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-11.5-konfirmasi renewal"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:36:55,2022-06-27 09:36:57,2.074s,PASSED
+"Submit = findElement(findTestObject(""DMS_FINA_Mobile/FINA_Renewal_Asuransi/FINA_RenewalAsr_DetailAsr_Submit_Button""), 10)",,,,2022-06-27 09:36:57,2022-06-27 09:36:58,0.673s,PASSED
+Submit.click(),,,,2022-06-27 09:36:58,2022-06-27 09:36:58,0.141s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Renewal_Asuransi/FINA_RenewalAsr_Submit_Ya_Button""), 0)",,,,2022-06-27 09:36:58,2022-06-27 09:37:00,2.631s,PASSED
+delay(10),,,,2022-06-27 09:37:00,2022-06-27 09:37:10,10.008s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-11.6-proses submit berhasil"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:37:10,2022-06-27 09:37:12,2.102s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Renewal_Asuransi/FINA_RenewalAsr_Submit_Kembali_Button""), 0)",,,,2022-06-27 09:37:12,2022-06-27 09:37:14,1.181s,PASSED
+pressBack(),,,,2022-06-27 09:37:14,2022-06-27 09:37:15,1.388s,PASSED
+pressBack(),,,,2022-06-27 09:37:15,2022-06-27 09:37:17,2.482s,PASSED
+"Account = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-27 09:37:17,2022-06-27 09:37:19,1.297s,PASSED
+Account.click(),,,,2022-06-27 09:37:19,2022-06-27 09:37:19,0.096s,PASSED
+delay(5),,,,2022-06-27 09:37:19,2022-06-27 09:37:24,5.021s,PASSED

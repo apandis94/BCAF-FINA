@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Check Claim Asuransi</description>
+   <name>1.2 Claim Asuransi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bf73bfc0-2487-437c-aff2-b75b96e0e9a4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01 - Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c8a54667-f80c-4efe-bf98-f87c3ceb4508</testCaseGuid>
+   <variable>
+      <defaultValue>'testfina8'</defaultValue>
+      <description></description>
+      <id>2805a7d0-e9d4-48c2-a3e4-600660943555</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>'mobile123+'</defaultValue>
+      <description></description>
+      <id>076008d8-92f5-45ce-b00e-63b5ce2e5f62</id>
+      <masked>false</masked>
+      <name>pass</name>
+   </variable>
+</TestCaseEntity>

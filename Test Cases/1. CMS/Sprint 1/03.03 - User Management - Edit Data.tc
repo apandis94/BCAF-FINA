@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03.03 - User Management - Edit Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a3455573-1276-40b6-b5e6-5300b313a711</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.edit_role1</defaultValue>
+      <description></description>
+      <id>0456136f-6293-4722-b8fd-aa648ab926fc</id>
+      <masked>false</masked>
+      <name>edit_role1</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.edit_role2</defaultValue>
+      <description></description>
+      <id>4a4b9f35-ab6a-4308-868b-d1eebf215ea6</id>
+      <masked>false</masked>
+      <name>edit_role2</name>
+   </variable>
+   <variable>
+      <defaultValue>GlobalVariable.FINA_Username</defaultValue>
+      <description></description>
+      <id>18ffe7e3-fef8-4a13-9845-c6c985a84ce8</id>
+      <masked>false</masked>
+      <name>FINA_Username</name>
+   </variable>
+</TestCaseEntity>

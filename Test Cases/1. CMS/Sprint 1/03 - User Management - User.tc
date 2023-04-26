@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03 - User Management - User</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>95c449bb-c15f-45b7-a29c-cd3a6fffa6ee</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.FINA_Username</defaultValue>
+      <description></description>
+      <id>d44c8f77-8fef-4efe-931f-27948c4e05f5</id>
+      <masked>false</masked>
+      <name>FINA_Username</name>
+   </variable>
+</TestCaseEntity>

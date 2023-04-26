@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Login - konsumen</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d59cb88a-38d2-44d9-bca0-e319d95283aa</testCaseGuid>
+   <variable>
+      <defaultValue>'bm.madiun@mailinator.com'</defaultValue>
+      <description></description>
+      <id>86463ed1-3879-46a0-a776-2cc036e371de</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'XHvaJ4'</defaultValue>
+      <description></description>
+      <id>cda2402d-fbe3-49a8-a6f6-316e3c7bcb74</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abcd'</defaultValue>
+      <description></description>
+      <id>a95d287b-d177-4ffe-ba98-c30efa0f2004</id>
+      <masked>false</masked>
+      <name>FINA_passwordnew_Konsumen</name>
+   </variable>
+</TestCaseEntity>

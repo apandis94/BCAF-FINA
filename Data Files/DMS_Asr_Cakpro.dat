@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description></description>
+   <name>DMS_Asr_Cakpro</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>7160a5cc-0917-4dd6-8fe6-94766962c76b</dataFileGUID>
+   <dataSourceUrl>C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Excel\matriks renewal &amp; upgrade Asr Cakpro.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>CAKPRO</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

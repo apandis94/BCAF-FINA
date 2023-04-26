@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Cek Menu Home Non Login</description>
+   <name>01 - CekHomeNonLogin</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>519bd036-eda9-403c-bc61-d60450e982e1</testCaseGuid>
+   <variable>
+      <defaultValue>'D:\\\\GitHub\\\\katalon-fina\\\\Screenshots\\\\Sprint 2\\\\Cek Home Non Login\r\n'</defaultValue>
+      <description></description>
+      <id>88766504-e311-410e-8a99-960969b87b3e</id>
+      <masked>false</masked>
+      <name>screenshoot</name>
+   </variable>
+</TestCaseEntity>

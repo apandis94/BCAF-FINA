@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1. Login - change pass konsumen after reset</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>75a74028-657e-43a3-a636-86a4a6f4a5ae</testCaseGuid>
+   <variable>
+      <defaultValue>'bm.madiun@mailinator.com'</defaultValue>
+      <description></description>
+      <id>15684e4f-7463-46f4-ba61-d3ff22d25882</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'WXnGL5'</defaultValue>
+      <description></description>
+      <id>a134c607-ccd7-44cc-93f3-1cf519c75da7</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>20923f60-ad3f-482e-98cb-5e207f1079d3</id>
+      <masked>false</masked>
+      <name>FINA_passwordnew_Konsumen</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,364 @@
+[35m[Appium][39m Welcome to Appium v1.22.2
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 64961
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\NIAYUS~1\AppData\Local\Temp\\Katalon\Appium\Temp1659670034551
+[35m[Appium][39m   chromedriverPort: 64962
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 64962
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:64961
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m16 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m2 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"appActivity":".Settings","appPackage":"com.android.settings","newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"platformName":"Android","udid":"RR8N605F11Y","deviceName":"samsung SM-M315F (Android 11)","platform":"ANDROID","systemPort":8240},"capabilities":{"firstMatch":[{"appium:appActivity":".Settings","appium:appPackage":"com.android.settings","appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","appium:deviceName":"samsung SM-M315F (Android 11)","appium:newCommandTimeout":1800,"platform":"ANDROID","platformName":"android","appium:platformVersion":"11","appium:systemPort":8240,"appium:udid":"RR8N605F11Y"}]}}[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.2 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[UiAutomator2][39m Starting 'com.android.settings' directly on the device
+[35m[ADB][39m Cannot sort build-tools folders ["29.0.3","android-8.1.0"] by semantic version names.
+[35m[ADB][39m Falling back to sorting by modification date. Original error: Invalid Version: android-8.1.0
+[35m[ADB][39m Found 2 'build-tools' folders under 'C:\Users\Nia Yusniati\.katalon\tools\android_sdk' (newest first):
+[35m[ADB][39m     C:/Users/Nia Yusniati/.katalon/tools/android_sdk/build-tools/29.0.3
+[35m[ADB][39m     C:/Users/Nia Yusniati/.katalon/tools/android_sdk/build-tools/android-8.1.0
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Nia Yusniati\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: RR8N605F11Y
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\Nia Yusniati\.katalon\tools\android_sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[AndroidDriver][39m No app sent in, not parsing package/activity
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\Nia Yusniati\.katalon\tools\android_sdk\build-tools\29.0.3\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\Nia Yusniati\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\Nia Yusniati\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\Nia Yusniati\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\Nia Yusniati\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.android.settings/.Settings and waiting for 'com.android.settings/.Settings'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4 added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m13429 ms - 1158[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4 [39m[32m200[39m [90m18 ms - 1112[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4 [39m[32m200[39m [90m13 ms - 1112[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":60000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/timeouts [39m[32m200[39m [90m4 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m651 ms - 217276[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/window/rect [39m[32m200[39m [90m27 ms - 50[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/appium/device/system_bars [39m[32m200[39m [90m156 ms - 148[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/appium/device/activate_app[39m
+[35m[HTTP][39m [90m{"bundleId":"com.vq.mbrochuregp.client.android"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/appium/device/activate_app [39m[32m200[39m [90m741 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (a4ae97d4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 39ce081b-0711-4c3b-a90e-7511a195daf6 with a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source [39m[32m200[39m [90m497 ms - 43535[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m587 ms - 259450[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (a4ae97d4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 39ce081b-0711-4c3b-a90e-7511a195daf6 with a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source [39m[32m200[39m [90m344 ms - 43535[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m637 ms - 259284[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '1 thn' or . = '1 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m1836 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (a4ae97d4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 39ce081b-0711-4c3b-a90e-7511a195daf6 with a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source [39m[32m200[39m [90m542 ms - 43535[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m702 ms - 258874[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '2 thn' or . = '2 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m565 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '3 thn' or . = '3 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m509 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '4 thn' or . = '4 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m462 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '5 thn' or . = '5 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m504 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '6 thn' or . = '6 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m424 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (a4ae97d4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 39ce081b-0711-4c3b-a90e-7511a195daf6 with a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source [39m[32m200[39m [90m456 ms - 43535[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m715 ms - 259362[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 219,552,000' or . = 'Rp 219,552,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m514 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 213,431,000' or . = 'Rp 213,431,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m403 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 217,460,000' or . = 'Rp 217,460,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m433 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 223,815,000' or . = 'Rp 223,815,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m440 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 230,893,000' or . = 'Rp 230,893,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m436 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 237,505,000' or . = 'Rp 237,505,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m311 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 29,226,000' or . = 'Rp 29,226,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m397 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (a4ae97d4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 39ce081b-0711-4c3b-a90e-7511a195daf6 with a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source [39m[32m200[39m [90m435 ms - 43535[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m709 ms - 258534[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 15,166,000' or . = 'Rp 15,166,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m430 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 10,489,000' or . = 'Rp 10,489,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m351 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 8,279,000' or . = 'Rp 8,279,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m363 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 7,204,000' or . = 'Rp 7,204,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_first_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m300 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 7,380,000' or . = 'Rp 7,380,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_second_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m372 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 6,475,000' or . = 'Rp 6,475,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_first_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m319 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 6,601,000' or . = 'Rp 6,601,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_second_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m338 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (a4ae97d4)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 39ce081b-0711-4c3b-a90e-7511a195daf6 with a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/source [39m[32m200[39m [90m449 ms - 43526[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/screenshot [39m[32m200[39m [90m783 ms - 258496[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '1 thn' or . = '1 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m325 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '2 thn' or . = '2 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m340 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '3 thn' or . = '3 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m318 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '4 thn' or . = '4 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m337 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '5 thn' or . = '5 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m367 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = '6 thn' or . = '6 thn') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_tenor']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m386 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 175,764,000' or . = 'Rp 175,764,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m384 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m129 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Rp 175,764,000\").resourceId(\"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m252 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 175,764,000' or . = 'Rp 175,764,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m359 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m142 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Rp 175,764,000\").resourceId(\"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m251 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 175,764,000' or . = 'Rp 175,764,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m340 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m163 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Rp 175,764,000\").resourceId(\"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m201 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 175,764,000' or . = 'Rp 175,764,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m320 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m145 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Rp 175,764,000\").resourceId(\"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_dp\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m267 ms - 523[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 175,764,000' or . = 'Rp 175,764,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m349 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m188 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Rp 175,764,000\").resourceId(\"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m570 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 175,764,000' or . = 'Rp 175,764,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m293 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"id","value":"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m105 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"-android uiautomator","value":"new UiSelector().className(\"android.widget.TextView\").text(\"Rp 175,764,000\").resourceId(\"com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_dp\")"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m180 ms - 267[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 29,889,000' or . = 'Rp 29,889,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m286 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 15,836,000' or . = 'Rp 15,836,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m277 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 11,177,000' or . = 'Rp 11,177,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m326 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 9,013,000' or . = 'Rp 9,013,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_single_layout_installment']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m297 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 8,027,000' or . = 'Rp 8,027,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_first_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m356 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 8,248,000' or . = 'Rp 8,248,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_second_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m308 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 7,272,000' or . = 'Rp 7,272,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_first_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m292 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Rp 7,439,000' or . = 'Rp 7,439,000') and @resource-id = 'com.vq.mbrochuregp.client.android:id/tv_credit_simulation_installments_multi_layout_second_period']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4/elements [39m[32m200[39m [90m348 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mDELETE[39m [37m/wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[Appium][39m Removing session a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4 from our master session list
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration
+[35m[HTTP][39m [37m<-- DELETE /wd/hub/session/a4ae97d4-69f6-4f09-93ed-bb719e0ee2a4 [39m[32m200[39m [90m713 ms - 14[39m
+[35m[HTTP][39m [90m[39m

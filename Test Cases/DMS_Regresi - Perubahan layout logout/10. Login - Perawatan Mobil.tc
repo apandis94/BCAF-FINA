@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10. Login - Perawatan Mobil</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>941209ef-31e8-4e9c-ba7c-777715156786</testCaseGuid>
+   <variable>
+      <defaultValue>'lisharyani@mailinator.com'</defaultValue>
+      <description></description>
+      <id>0172bf53-4ee6-416d-bcd9-4005f1690167</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>889e34a9-e7c5-4dac-b667-90fd25e7f983</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+</TestCaseEntity>

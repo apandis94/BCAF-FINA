@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>11. Login - Program Kredit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3aa61bb8-cc98-43d7-8bfe-6e865b560a03</testCaseGuid>
+   <variable>
+      <defaultValue>'lisharyani@mailinator.com'</defaultValue>
+      <description></description>
+      <id>21885baa-b14b-4112-9217-abe3022d4a6d</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>b441c55f-dfdc-442d-8adf-bad258e5b11e</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+</TestCaseEntity>

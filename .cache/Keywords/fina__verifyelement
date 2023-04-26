@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "E5A3F1AF679094016F1BCEC1465E3797",
+  "keywordClasses": [
+    {
+      "name": "fina.verifyelement",
+      "keywordMethods": [
+        {
+          "name": "AngsuranMuka",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

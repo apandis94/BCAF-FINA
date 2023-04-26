@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5. Cek Web Aplikasi Reservasi</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fc279c73-f27a-4a76-90e3-79cf4d346b47</testCaseGuid>
+   <variable>
+      <defaultValue>'revbpkb2@sharklasers.com'</defaultValue>
+      <description></description>
+      <id>b86f947d-0523-4ad0-8cd0-7b38f567412c</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>1e1d0c1f-34d5-4872-820f-d4dae1b5ff84</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+</TestCaseEntity>

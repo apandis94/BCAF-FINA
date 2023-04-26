@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Login - submit,,,,2022-06-27 09:23:52,2022-06-27 09:27:06,3m - 14.250s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.1. Login - konsumen,,,,2022-06-27 09:23:52,2022-06-27 09:24:48,55.390s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-27 09:23:53,2022-06-27 09:23:53,0.011s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-27 09:23:53,2022-06-27 09:24:13,20.089s,PASSED
+delay(8),,,,2022-06-27 09:24:13,2022-06-27 09:24:22,8.081s,PASSED
+"element = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-27 09:24:22,2022-06-27 09:24:23,1.074s,PASSED
+element.click(),,,,2022-06-27 09:24:23,2022-06-27 09:24:23,0.542s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Login"", 33), 0)",,,,2022-06-27 09:24:23,2022-06-27 09:24:26,2.561s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Password_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Pass"", 33), 0)",,,,2022-06-27 09:24:26,2022-06-27 09:24:28,1.849s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.1-input username dan password"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:24:28,2022-06-27 09:24:31,3.123s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/FINA_Login_Button""), 0)",,set user login,,2022-06-27 09:24:31,2022-06-27 09:24:32,0.796s,PASSED
+"delay(0, STOP_ON_FAILURE)",,,,2022-06-27 09:24:32,2022-06-27 09:24:32,0.006s,PASSED
+"scrollToText(""Suku Bunga"", STOP_ON_FAILURE)",,,,2022-06-27 09:24:32,2022-06-27 09:24:41,9.515s,PASSED
+"elementAccount = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-27 09:24:41,2022-06-27 09:24:42,1.162s,PASSED
+elementAccount.click(),,,,2022-06-27 09:24:42,2022-06-27 09:24:42,0.114s,PASSED
+delay(2),,,,2022-06-27 09:24:42,2022-06-27 09:24:44,2.040s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.2-berhasil login"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:24:44,2022-06-27 09:24:46,1.806s,PASSED
+"elementHome = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Home_Button""), 10)",,,,2022-06-27 09:24:46,2022-06-27 09:24:48,1.453s,PASSED
+elementHome.click(),,,,2022-06-27 09:24:48,2022-06-27 09:24:48,0.093s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.2. Upgrade Asuransi,,,,2022-06-27 09:24:48,2022-06-27 09:27:06,2m - 18.230s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-27 09:24:48,2022-06-27 09:24:48,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-27 09:24:48,2022-06-27 09:25:00,11.270s,PASSED
+delay(8),,,,2022-06-27 09:25:00,2022-06-27 09:25:08,8.012s,PASSED
+pressBack(),,,,2022-06-27 09:25:08,2022-06-27 09:25:08,0.322s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK""), 0)",,,,2022-06-27 09:25:08,2022-06-27 09:25:10,1.828s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Mobile_Main Menu/FINA_Menu_More_Button""), 0)",,,,2022-06-27 09:25:10,2022-06-27 09:25:10,0.633s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Menu_More Menu/Features/FINA_More_UpgradeAsr_Button""), 0)",,,,2022-06-27 09:25:10,2022-06-27 09:25:12,1.172s,PASSED
+delay(30),,,,2022-06-27 09:25:12,2022-06-27 09:25:42,30.029s,PASSED
+"tap(findTestObject(""APN_Fina New Versi/List Data/Upgrade 1-1""), 0)",,,,2022-06-27 09:25:42,2022-06-27 09:25:42,0.740s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.3-list kendaraan"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:25:42,2022-06-27 09:25:44,2.068s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Tenor4_Checkbox""), 0)",,,,2022-06-27 09:25:44,2022-06-27 09:25:48,3.019s,PASSED
+delay(10),,,,2022-06-27 09:25:48,2022-06-27 09:25:58,10.022s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.4-pilih tenor"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:25:58,2022-06-27 09:26:00,2.166s,PASSED
+"Lanjutkan1 = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Lanjutkan_Button""), 10)",,,,2022-06-27 09:26:00,2022-06-27 09:26:01,1.186s,PASSED
+Lanjutkan1.click(),,,,2022-06-27 09:26:01,2022-06-27 09:26:01,0.128s,PASSED
+delay(20),,,,2022-06-27 09:26:01,2022-06-27 09:26:21,20.008s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.5-pilih jenis upgrade"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:26:21,2022-06-27 09:26:23,2.098s,PASSED
+"Lanjutkan2 = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_PilihAsuransidanPerluasan_Lanjutkan_Button""), 10)",,,,2022-06-27 09:26:23,2022-06-27 09:26:24,1.296s,PASSED
+Lanjutkan2.click(),,,,2022-06-27 09:26:24,2022-06-27 09:26:25,0.831s,PASSED
+delay(10),,,,2022-06-27 09:26:25,2022-06-27 09:26:35,10.006s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/android.widget.EditText - Nomor Telepon  HP""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""No tlp"", 33), 0)",,,,2022-06-27 09:26:35,2022-06-27 09:26:46,11.071s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.6-konfirmasi upgrade"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:26:46,2022-06-27 09:26:48,2.165s,PASSED
+"Submit = findElement(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Konfirmasi_Submit_Button""), 10)",,,,2022-06-27 09:26:48,2022-06-27 09:26:49,0.735s,PASSED
+Submit.click(),,,,2022-06-27 09:26:49,2022-06-27 09:26:49,0.098s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Detail_Konfirmasi_Ya_Button""), 0)",,,,2022-06-27 09:26:49,2022-06-27 09:26:51,1.867s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Upgrade_Asuransi/FINA_UpgradeAsr_Submit_Kembali_Button""), 0)",,,,2022-06-27 09:26:51,2022-06-27 09:26:52,1.210s,PASSED
+delay(2),,,,2022-06-27 09:26:52,2022-06-27 09:26:54,2.020s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.7-proses submit berhasil"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-27 09:26:54,2022-06-27 09:26:56,1.958s,PASSED
+pressBack(),,,,2022-06-27 09:26:56,2022-06-27 09:26:57,0.868s,PASSED
+pressBack(),,,,2022-06-27 09:26:57,2022-06-27 09:26:59,1.877s,PASSED
+"Account = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-27 09:26:59,2022-06-27 09:27:01,1.664s,PASSED
+Account.click(),,,,2022-06-27 09:27:01,2022-06-27 09:27:01,0.122s,PASSED
+delay(5),,,,2022-06-27 09:27:01,2022-06-27 09:27:06,5.019s,PASSED

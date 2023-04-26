@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6.3 Login tidak input email</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d3c51001-5131-4484-bc06-36034efdfb3f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>04 - Mobile User Management</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4023e511-3f60-47ba-afdb-b7468b193fc8</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.FINA_cust_notfound</defaultValue>
+      <description></description>
+      <id>30630aa8-be4f-43a2-a0f7-01e60d58c0e3</id>
+      <masked>false</masked>
+      <name>FINA_cust</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="1. Apply Online - Pengajuan Reguler" time="429.438" tests="4" failures="0" errors="0">
+   <testsuite name="1. Apply Online - Pengajuan Reguler" tests="4" failures="0" errors="0" time="429.438" skipped="0" timestamp="2022-07-20 16:50:51" hostname="Nia Yusniati - Apandi" id="Test Suites/Apply Online/Reguler/1. Apply Online - Pengajuan Reguler">
+      <properties>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220720_165012\\Apply Online\\Reguler\\1. Apply Online - Pengajuan Reguler\\20220720_165012"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220720_165012\\Apply Online\\Reguler\\1. Apply Online - Pengajuan Reguler\\20220720_165012\\appium.log, C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220720_165012\\Apply Online\\Reguler\\1. Apply Online - Pengajuan Reguler\\20220720_165012\\execution0.log"/>
+         <property name="attachments" value="C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-8.1-input username dan password.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-8.2-berhasil login.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Homescreen.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Homescreen Apply Reguler.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 1.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 2.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 3.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 4.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 5.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 6.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 1.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 2.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 3.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 4.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Kenaraan 1.png, C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Kenaraan 2.png"/>
+         <property name="hostName" value="Nia Yusniati - Apandi"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.2&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.2"/>
+         <property name="deviceModel" value="sdk_gphone_x86"/>
+         <property name="hostAddress" value="10.10.90.120"/>
+         <property name="deviceManufacturer" value="Google"/>
+         <property name="deviceId" value="emulator-5554"/>
+         <property name="deviceName" value="emulator-5554 (sdk_gphone_x86 - Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.1. Login - konsumen" time="123.683" classname="Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.1. Login - konsumen" status="PASSED">
+         <system-out><![CDATA[2022-07-20 16:50:52 - [TEST_CASE][PASSED] - Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.1. Login - konsumen: Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.1. Login - konsumen
+
+2022-07-20 16:50:56 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-07-20 16:50:56 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android", STOP_ON_FAILURE): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:51:07 - [MESSAGE][INFO] - Appium server started on port 53,070
+
+2022-07-20 16:51:57 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:51:57 - [TEST_STEP][PASSED] - delay(8): Delayed 8 second(s)
+
+2022-07-20 16:52:05 - [MESSAGE][PASSED] - Delayed 8 second(s)
+
+2022-07-20 16:52:05 - [TEST_STEP][PASSED] - element = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-07-20 16:52:08 - [TEST_STEP][PASSED] - element.click(): null
+
+2022-07-20 16:52:09 - [TEST_STEP][PASSED] - setText(findTestObject("DMS_FINA_Mobile/FINA_Login/Login_Text"), findTestData("DMS_Asr_Cakpro").getObjectValue("Login", 33), 0): Text 'zemi@mailinator.com' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Text'
+
+2022-07-20 16:52:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:52:13 - [MESSAGE][PASSED] - Text 'zemi@mailinator.com' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Text'
+
+2022-07-20 16:52:13 - [TEST_STEP][PASSED] - setText(findTestObject("DMS_FINA_Mobile/FINA_Login/Login_Password_Text"), findTestData("DMS_Asr_Cakpro").getObjectValue("Pass", 33), 0): Text '123abc' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Password_Text'
+
+2022-07-20 16:52:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:52:14 - [MESSAGE][PASSED] - Text '123abc' has been set to element 'Object Repository/DMS_FINA_Mobile/FINA_Login/Login_Password_Text'
+
+2022-07-20 16:52:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-8.1-input username dan password" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:52:20 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:52:20 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-8.1-input username dan password.png]]
+
+2022-07-20 16:52:20 - [TEST_STEP][PASSED] - tap(findTestObject("DMS_FINA_Mobile/FINA_Login/FINA_Login_Button"), 0): Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/FINA_Login_Button'
+
+2022-07-20 16:52:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:52:21 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/DMS_FINA_Mobile/FINA_Login/FINA_Login_Button'
+
+2022-07-20 16:52:21 - [TEST_STEP][PASSED] - delay(0, STOP_ON_FAILURE): Delayed 0 second(s)
+
+2022-07-20 16:52:21 - [MESSAGE][PASSED] - Delayed 0 second(s)
+
+2022-07-20 16:52:21 - [TEST_STEP][PASSED] - scrollToText("Suku Bunga", STOP_ON_FAILURE): Scrolling to text 'Suku Bunga' successfully
+
+2022-07-20 16:52:48 - [MESSAGE][PASSED] - Scrolling to text 'Suku Bunga' successfully
+
+2022-07-20 16:52:48 - [TEST_STEP][PASSED] - elementAccount = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Account_Button"), 10): null
+
+2022-07-20 16:52:48 - [TEST_STEP][PASSED] - elementAccount.click(): null
+
+2022-07-20 16:52:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2022-07-20 16:52:51 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-20 16:52:51 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + "skenario-8.2-berhasil login" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:52:53 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:52:54 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\cakpro\keyes\keyes-skenario-8.2-berhasil login.png]]
+
+2022-07-20 16:52:54 - [TEST_STEP][PASSED] - elementHome = findElement(findTestObject("DMS_FINA_Mobile/FINA_BottomNav_Home_Button"), 10): null
+
+2022-07-20 16:52:55 - [TEST_STEP][PASSED] - elementHome.click(): null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APN_ApplyOnlie/Reguler/1.1 Pengajuan Apply Reguler" time="123.015" classname="Test Cases/APN_ApplyOnlie/Reguler/1.1 Pengajuan Apply Reguler" status="PASSED">
+         <system-out><![CDATA[2022-07-20 16:52:56 - [TEST_CASE][PASSED] - Test Cases/APN_ApplyOnlie/Reguler/1.1 Pengajuan Apply Reguler: Test Cases/APN_ApplyOnlie/Reguler/1.1 Pengajuan Apply Reguler
+
+2022-07-20 16:52:58 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-07-20 16:52:58 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android"): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:53:23 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:53:23 - [TEST_STEP][PASSED] - comment("Halaman Homescreen"): Halaman Homescreen
+
+2022-07-20 16:53:24 - [MESSAGE][INFO] - Halaman Homescreen
+
+2022-07-20 16:53:24 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:53:27 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:53:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Homescreen" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:53:30 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:53:30 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Homescreen.png]]
+
+2022-07-20 16:53:31 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.1 Button Grup Menu Simulasi dan Apply Kredit"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.1 Button Grup Menu Simulasi dan Apply Kredit'
+
+2022-07-20 16:53:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:53:37 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.1 Button Grup Menu Simulasi dan Apply Kredit'
+
+2022-07-20 16:53:37 - [TEST_STEP][PASSED] - comment("Halaman Apple Reguler & Miini For Max"): Halaman Apple Reguler & Miini For Max
+
+2022-07-20 16:53:37 - [MESSAGE][INFO] - Halaman Apple Reguler & Miini For Max
+
+2022-07-20 16:53:37 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:53:40 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:53:40 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Homescreen Apply Reguler" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:53:44 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:53:45 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Homescreen Apply Reguler.png]]
+
+2022-07-20 16:53:45 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.2 Button Menu Reguler"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.2 Button Menu Reguler'
+
+2022-07-20 16:53:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.2 Button Menu Reguler'
+
+2022-07-20 16:54:05 - [TEST_STEP][PASSED] - comment("Loan Data Kendaraan"): Loan Data Kendaraan
+
+2022-07-20 16:54:05 - [MESSAGE][INFO] - Loan Data Kendaraan
+
+2022-07-20 16:54:05 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:54:08 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:54:08 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Pengajuan Reguler 1" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:54:10 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:54:10 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 1.png]]
+
+2022-07-20 16:54:10 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.3 Button Menu Kondisi Kendaraan New"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.3 Button Menu Kondisi Kendaraan New'
+
+2022-07-20 16:54:11 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.3 Button Menu Kondisi Kendaraan New'
+
+2022-07-20 16:54:11 - [TEST_STEP][NOT_RUN] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.4 Button Menu Kondisi Kendaraan Used"), 0): NOT_RUN: tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.4 Button Menu Kondisi Kendaraan Used"), 0)
+
+2022-07-20 16:54:11 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.4 Button Menu Kondisi Kendaraan Used"), 0)
+
+2022-07-20 16:54:11 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Pengajuan Reguler/1.5 Input Harga Kendaraan"), "500,000,000", 0): Text '500,000,000' has been set to element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.5 Input Harga Kendaraan'
+
+2022-07-20 16:54:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:14 - [MESSAGE][PASSED] - Text '500,000,000' has been set to element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.5 Input Harga Kendaraan'
+
+2022-07-20 16:54:14 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Pengajuan Reguler/1.6 Input DP Awal"), "35", 0): Text '35' has been set to element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.6 Input DP Awal'
+
+2022-07-20 16:54:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:16 - [MESSAGE][PASSED] - Text '35' has been set to element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.6 Input DP Awal'
+
+2022-07-20 16:54:16 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.7 Pilih Asuransi"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.7 Pilih Asuransi'
+
+2022-07-20 16:54:16 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:16 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.7 Pilih Asuransi'
+
+2022-07-20 16:54:16 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.8.1 Type Asuransi Comprehensive"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.8.1 Type Asuransi Comprehensive'
+
+2022-07-20 16:54:17 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.8.1 Type Asuransi Comprehensive'
+
+2022-07-20 16:54:19 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:54:22 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:54:22 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Pengajuan Reguler 2" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:54:24 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:54:24 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 2.png]]
+
+2022-07-20 16:54:24 - [TEST_STEP][PASSED] - swipe(0, 800, 0, 500): Swiped from 0,800 to 0,500
+
+2022-07-20 16:54:26 - [MESSAGE][PASSED] - Swiped from 0,800 to 0,500
+
+2022-07-20 16:54:26 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.9 Pilih Zona Lokasi"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.9 Pilih Zona Lokasi'
+
+2022-07-20 16:54:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.9 Pilih Zona Lokasi'
+
+2022-07-20 16:54:27 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.10.1 Zona Jakarta, Jawa Barat dan Banten"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.10.1 Zona Jakarta, Jawa Barat dan Banten'
+
+2022-07-20 16:54:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.10.1 Zona Jakarta, Jawa Barat dan Banten'
+
+2022-07-20 16:54:28 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:54:31 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:54:31 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Pengajuan Reguler 3" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:54:34 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:54:34 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 3.png]]
+
+2022-07-20 16:54:34 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.11 Button Simulasi Kredit"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.11 Button Simulasi Kredit'
+
+2022-07-20 16:54:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:35 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.11 Button Simulasi Kredit'
+
+2022-07-20 16:54:35 - [TEST_STEP][PASSED] - comment("Halaman Detail Angsuran Didepan"): Halaman Detail Angsuran Didepan
+
+2022-07-20 16:54:35 - [MESSAGE][INFO] - Halaman Detail Angsuran Didepan
+
+2022-07-20 16:54:35 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:54:38 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:54:38 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Pengajuan Reguler 4" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:54:43 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:54:44 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 4.png]]
+
+2022-07-20 16:54:44 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.12 Button Angsuran Dibelakang"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.12 Button Angsuran Dibelakang'
+
+2022-07-20 16:54:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:44 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.12 Button Angsuran Dibelakang'
+
+2022-07-20 16:54:44 - [TEST_STEP][PASSED] - comment("Halaman Detail Angsuran Dibelakang"): Halaman Detail Angsuran Dibelakang
+
+2022-07-20 16:54:44 - [MESSAGE][INFO] - Halaman Detail Angsuran Dibelakang
+
+2022-07-20 16:54:44 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:54:47 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:54:47 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Pengajuan Reguler 5" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:54:50 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:54:51 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 5.png]]
+
+2022-07-20 16:54:51 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.13 Pilih Tenor 4Thn"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.13 Pilih Tenor 4Thn'
+
+2022-07-20 16:54:51 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:52 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.13 Pilih Tenor 4Thn'
+
+2022-07-20 16:54:52 - [TEST_STEP][PASSED] - comment("Halaman Detail Angsuran Perbulan"): Halaman Detail Angsuran Perbulan
+
+2022-07-20 16:54:52 - [MESSAGE][INFO] - Halaman Detail Angsuran Perbulan
+
+2022-07-20 16:54:52 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:54:55 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:54:55 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Pengajuan Reguler 6" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:54:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:54:58 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Pengajuan Reguler 6.png]]
+
+2022-07-20 16:54:58 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Pengajuan Reguler/1.14 Button Pengajuan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.14 Button Pengajuan'
+
+2022-07-20 16:54:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:54:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Pengajuan Reguler/1.14 Button Pengajuan']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APN_ApplyOnlie/Reguler/1.3.2 Data Konsumen - Upload Gallery AVD" time="135.361" classname="Test Cases/APN_ApplyOnlie/Reguler/1.3.2 Data Konsumen - Upload Gallery AVD" status="PASSED">
+         <system-out><![CDATA[2022-07-20 16:54:59 - [TEST_CASE][PASSED] - Test Cases/APN_ApplyOnlie/Reguler/1.3.2 Data Konsumen - Upload Gallery AVD: Test Cases/APN_ApplyOnlie/Reguler/1.3.2 Data Konsumen - Upload Gallery AVD
+
+2022-07-20 16:55:01 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-07-20 16:55:01 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android"): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:55:21 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:55:21 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:55:24 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:55:24 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Data Konsumen 1" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:55:27 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:55:27 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 1.png]]
+
+2022-07-20 16:55:27 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.1 Button Upload File KTP"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.1 Button Upload File KTP'
+
+2022-07-20 16:55:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:30 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.1 Button Upload File KTP'
+
+2022-07-20 16:55:30 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:55:30 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:55:31 - [TEST_STEP][NOT_RUN] - scrollToText("Upload File"): NOT_RUN: scrollToText("Upload File")
+
+2022-07-20 16:55:31 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToText("Upload File")
+
+2022-07-20 16:55:31 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:55:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:55:36 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP'
+
+2022-07-20 16:55:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:40 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP'
+
+2022-07-20 16:55:40 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.5 Button Upload File KTP Pasangan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.5 Button Upload File KTP Pasangan'
+
+2022-07-20 16:55:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:45 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.5 Button Upload File KTP Pasangan'
+
+2022-07-20 16:55:45 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:55:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:46 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:55:46 - [TEST_STEP][NOT_RUN] - scrollToText("Upload File"): NOT_RUN: scrollToText("Upload File")
+
+2022-07-20 16:55:46 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToText("Upload File")
+
+2022-07-20 16:55:46 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:55:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:55:49 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP Pasangan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP Pasangan'
+
+2022-07-20 16:55:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:53 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP Pasangan'
+
+2022-07-20 16:55:53 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.8 Button Upload File KK"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.8 Button Upload File KK'
+
+2022-07-20 16:55:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:55 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.8 Button Upload File KK'
+
+2022-07-20 16:55:55 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:55:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:55:56 - [TEST_STEP][NOT_RUN] - scrollToText("Upload FIle"): NOT_RUN: scrollToText("Upload FIle")
+
+2022-07-20 16:55:56 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToText("Upload FIle")
+
+2022-07-20 16:55:56 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:55:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:55:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:55:59 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KK"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KK'
+
+2022-07-20 16:55:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:04 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KK'
+
+2022-07-20 16:56:04 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.11 Button Upload File NPWP"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.11 Button Upload File NPWP'
+
+2022-07-20 16:56:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.11 Button Upload File NPWP'
+
+2022-07-20 16:56:06 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:56:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:07 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery'
+
+2022-07-20 16:56:07 - [TEST_STEP][NOT_RUN] - scrollToText("Upload File"): NOT_RUN: scrollToText("Upload File")
+
+2022-07-20 16:56:07 - [MESSAGE][NOT_RUN] - NOT_RUN: scrollToText("Upload File")
+
+2022-07-20 16:56:07 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:56:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:09 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download'
+
+2022-07-20 16:56:09 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/File NPWP"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File NPWP'
+
+2022-07-20 16:56:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:11 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/File NPWP'
+
+2022-07-20 16:56:11 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:56:14 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:56:14 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Data Konsumen 2" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:56:17 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:56:18 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 2.png]]
+
+2022-07-20 16:56:18 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.15 Button Lanjut"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.15 Button Lanjut'
+
+2022-07-20 16:56:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:19 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.15 Button Lanjut'
+
+2022-07-20 16:56:19 - [TEST_STEP][PASSED] - delay(15): Delayed 15 second(s)
+
+2022-07-20 16:56:34 - [MESSAGE][PASSED] - Delayed 15 second(s)
+
+2022-07-20 16:56:34 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Nama"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("Nama", 1), 0): Text 'Lukman Wijaya' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Nama'
+
+2022-07-20 16:56:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:43 - [MESSAGE][PASSED] - Text 'Lukman Wijaya' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Nama'
+
+2022-07-20 16:56:43 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Alamat"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("Alamat", 1), 0): Text 'Kp. Sindang Jaya No.5' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Alamat'
+
+2022-07-20 16:56:43 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:44 - [MESSAGE][PASSED] - Text 'Kp. Sindang Jaya No.5' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Alamat'
+
+2022-07-20 16:56:44 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Provinsi"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("Provinsi", 1), 0): Text 'Jawa Barat' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Provinsi'
+
+2022-07-20 16:56:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:46 - [MESSAGE][PASSED] - Text 'Jawa Barat' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Provinsi'
+
+2022-07-20 16:56:46 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kabupaten"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("Kabupaten", 1), 0): Text 'Bogor' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kabupaten'
+
+2022-07-20 16:56:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:48 - [MESSAGE][PASSED] - Text 'Bogor' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kabupaten'
+
+2022-07-20 16:56:48 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kode Pos"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("Kode Pos", 1), 0): Text '18880' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kode Pos'
+
+2022-07-20 16:56:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:49 - [MESSAGE][PASSED] - Text '18880' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kode Pos'
+
+2022-07-20 16:56:49 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Telp1"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("No Telp1", 1), 0): Text '0857211109021' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Telp1'
+
+2022-07-20 16:56:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:56:51 - [MESSAGE][PASSED] - Text '0857211109021' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Telp1'
+
+2022-07-20 16:56:51 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:56:54 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:56:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Data Konsumen 3" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:56:57 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:56:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 3.png]]
+
+2022-07-20 16:56:57 - [TEST_STEP][PASSED] - scrollToText("Keterangan", STOP_ON_FAILURE): Scrolling to text 'Keterangan' successfully
+
+2022-07-20 16:57:03 - [MESSAGE][PASSED] - Scrolling to text 'Keterangan' successfully
+
+2022-07-20 16:57:03 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Rekening"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("No Rekening", 1), 0): Text '3220900590' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Rekening'
+
+2022-07-20 16:57:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:05 - [MESSAGE][PASSED] - Text '3220900590' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Rekening'
+
+2022-07-20 16:57:05 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Konsumen/AVD Upload Gallery/Keterangan"), findTestData("Data_Konsumen_ApplyOnline").getObjectValue("Keterangan", 1), 0): Text 'Test Data 1' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Keterangan'
+
+2022-07-20 16:57:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:07 - [MESSAGE][PASSED] - Text 'Test Data 1' has been set to element 'Object Repository/APN_Apply Online/Data Konsumen/AVD Upload Gallery/Keterangan'
+
+2022-07-20 16:57:07 - [TEST_STEP][PASSED] - delay(3, STOP_ON_FAILURE): Delayed 3 second(s)
+
+2022-07-20 16:57:10 - [MESSAGE][PASSED] - Delayed 3 second(s)
+
+2022-07-20 16:57:10 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Data Konsumen 4" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:57:13 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:57:13 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Konsumen 4.png]]
+
+2022-07-20 16:57:13 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Konsumen/1.22 Button Lanjut 2"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.22 Button Lanjut 2'
+
+2022-07-20 16:57:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:14 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Konsumen/1.22 Button Lanjut 2']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/APN_ApplyOnlie/Reguler/1.2 Data Kendaraan" time="42.707" classname="Test Cases/APN_ApplyOnlie/Reguler/1.2 Data Kendaraan" status="PASSED">
+         <system-out><![CDATA[2022-07-20 16:57:14 - [TEST_CASE][PASSED] - Test Cases/APN_ApplyOnlie/Reguler/1.2 Data Kendaraan: Test Cases/APN_ApplyOnlie/Reguler/1.2 Data Kendaraan
+
+2022-07-20 16:57:16 - [TEST_STEP][PASSED] - baseDir = System.getProperty("user.dir"): null
+
+2022-07-20 16:57:16 - [TEST_STEP][PASSED] - startExistingApplication("com.vq.mbrochuregp.client.android"): Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:57:37 - [MESSAGE][PASSED] - Starting app with application ID: 'com.vq.mbrochuregp.client.android'
+
+2022-07-20 16:57:37 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-20 16:57:39 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-20 16:57:39 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Data Kenaraan 1" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:57:41 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:57:41 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Kenaraan 1.png]]
+
+2022-07-20 16:57:41 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Kendaraan/1.1 Radio Button Pilih Merk Kendaraan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.1 Radio Button Pilih Merk Kendaraan'
+
+2022-07-20 16:57:42 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:43 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.1 Radio Button Pilih Merk Kendaraan'
+
+2022-07-20 16:57:43 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Kendaraan/1.2 Input Merk Kendaraan"), "Honda", 0): Text 'Honda' has been set to element 'Object Repository/APN_Apply Online/Data Kendaraan/1.2 Input Merk Kendaraan'
+
+2022-07-20 16:57:44 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:46 - [MESSAGE][PASSED] - Text 'Honda' has been set to element 'Object Repository/APN_Apply Online/Data Kendaraan/1.2 Input Merk Kendaraan'
+
+2022-07-20 16:57:46 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Kendaraan/1.3 Pilih Merk Kendaraan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.3 Pilih Merk Kendaraan'
+
+2022-07-20 16:57:46 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:47 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.3 Pilih Merk Kendaraan'
+
+2022-07-20 16:57:47 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Kendaraan/1.4 Radio Button Pilih Model Kendaraan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.4 Radio Button Pilih Model Kendaraan'
+
+2022-07-20 16:57:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:49 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.4 Radio Button Pilih Model Kendaraan'
+
+2022-07-20 16:57:49 - [TEST_STEP][PASSED] - tap(findTestObject("APN_Apply Online/Data Kendaraan/1.5 Pilih Model Kendaraan"), 0): Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.5 Pilih Model Kendaraan'
+
+2022-07-20 16:57:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:50 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/APN_Apply Online/Data Kendaraan/1.5 Pilih Model Kendaraan'
+
+2022-07-20 16:57:50 - [TEST_STEP][PASSED] - setText(findTestObject("APN_Apply Online/Data Kendaraan/1.6 Input Type Kendaraan"), "TIPE - RR", 0): Text 'TIPE - RR' has been set to element 'Object Repository/APN_Apply Online/Data Kendaraan/1.6 Input Type Kendaraan'
+
+2022-07-20 16:57:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-07-20 16:57:52 - [MESSAGE][PASSED] - Text 'TIPE - RR' has been set to element 'Object Repository/APN_Apply Online/Data Kendaraan/1.6 Input Type Kendaraan'
+
+2022-07-20 16:57:52 - [TEST_STEP][PASSED] - delay(2, STOP_ON_FAILURE): Delayed 2 second(s)
+
+2022-07-20 16:57:54 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2022-07-20 16:57:54 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + "Data Kenaraan 2" + ".png", STOP_ON_FAILURE): Screenshot is taken
+
+2022-07-20 16:57:56 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-07-20 16:57:57 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Screenshots\mobile\applyonline\keyes\keyes-Data Kenaraan 2.png]]
+
+2022-07-20 16:57:57 - [TEST_STEP][NOT_RUN] - tap(findTestObject("APN_Apply Online/Data Kendaraan/1.6 Button Submit - Simpan"), 0): NOT_RUN: tap(findTestObject("APN_Apply Online/Data Kendaraan/1.6 Button Submit - Simpan"), 0)
+
+2022-07-20 16:57:57 - [MESSAGE][NOT_RUN] - NOT_RUN: tap(findTestObject("APN_Apply Online/Data Kendaraan/1.6 Button Submit - Simpan"), 0)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-20 16:50:51 - [TEST_SUITE][PASSED] - 1. Apply Online - Pengajuan Reguler: Test Cases/APN_ApplyOnlie/Reguler/1.2 Data Kendaraan]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

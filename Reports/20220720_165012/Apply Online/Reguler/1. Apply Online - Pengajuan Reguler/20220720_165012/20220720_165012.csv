@@ -1,0 +1,121 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Apply Online - Pengajuan Reguler,,,,2022-07-20 16:50:51,2022-07-20 16:57:57,7m - 6.129s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 8/8.1. Login - konsumen,,,,2022-07-20 16:50:52,2022-07-20 16:52:56,2m - 3.683s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-07-20 16:50:56,2022-07-20 16:50:56,0.008s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-07-20 16:50:56,2022-07-20 16:51:57,1m - 0.745s,PASSED
+delay(8),,,,2022-07-20 16:51:57,2022-07-20 16:52:05,8.629s,PASSED
+"element = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-07-20 16:52:05,2022-07-20 16:52:08,2.828s,PASSED
+element.click(),,,,2022-07-20 16:52:08,2022-07-20 16:52:09,0.310s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Login"", 33), 0)",,,,2022-07-20 16:52:09,2022-07-20 16:52:13,4.216s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Password_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Pass"", 33), 0)",,,,2022-07-20 16:52:13,2022-07-20 16:52:14,1.677s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.1-input username dan password"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:52:14,2022-07-20 16:52:20,5.850s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/FINA_Login_Button""), 0)",,set user login,,2022-07-20 16:52:20,2022-07-20 16:52:21,0.846s,PASSED
+"delay(0, STOP_ON_FAILURE)",,,,2022-07-20 16:52:21,2022-07-20 16:52:21,0.018s,PASSED
+"scrollToText(""Suku Bunga"", STOP_ON_FAILURE)",,,,2022-07-20 16:52:21,2022-07-20 16:52:48,26.465s,PASSED
+"elementAccount = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-07-20 16:52:48,2022-07-20 16:52:48,0.605s,PASSED
+elementAccount.click(),,,,2022-07-20 16:52:48,2022-07-20 16:52:48,0.092s,PASSED
+delay(2),,,,2022-07-20 16:52:48,2022-07-20 16:52:51,2.128s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-8.2-berhasil login"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:52:51,2022-07-20 16:52:54,3.272s,PASSED
+"elementHome = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Home_Button""), 10)",,,,2022-07-20 16:52:54,2022-07-20 16:52:55,0.735s,PASSED
+elementHome.click(),,,,2022-07-20 16:52:55,2022-07-20 16:52:56,1.109s,PASSED
+,,,,,,,
+Test Cases/APN_ApplyOnlie/Reguler/1.1 Pengajuan Apply Reguler,,,,2022-07-20 16:52:56,2022-07-20 16:54:59,2m - 3.015s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-07-20 16:52:58,2022-07-20 16:52:58,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"")",,,,2022-07-20 16:52:58,2022-07-20 16:53:23,25.788s,PASSED
+"comment(""Halaman Homescreen"")",,,,2022-07-20 16:53:23,2022-07-20 16:53:24,0.081s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:53:24,2022-07-20 16:53:27,3.033s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Homescreen"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:53:27,2022-07-20 16:53:31,3.963s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.1 Button Grup Menu Simulasi dan Apply Kredit""), 0)",,,,2022-07-20 16:53:31,2022-07-20 16:53:37,6.802s,PASSED
+"comment(""Halaman Apple Reguler & Miini For Max"")",,,,2022-07-20 16:53:37,2022-07-20 16:53:37,0.006s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:53:37,2022-07-20 16:53:40,3.013s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Homescreen Apply Reguler"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:53:40,2022-07-20 16:53:45,4.802s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.2 Button Menu Reguler""), 0)",,,,2022-07-20 16:53:45,2022-07-20 16:54:05,19.510s,PASSED
+"comment(""Loan Data Kendaraan"")",,,,2022-07-20 16:54:05,2022-07-20 16:54:05,0.006s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:54:05,2022-07-20 16:54:08,3.012s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Pengajuan Reguler 1"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:54:08,2022-07-20 16:54:10,2.581s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.3 Button Menu Kondisi Kendaraan New""), 0)",,,,2022-07-20 16:54:10,2022-07-20 16:54:11,1.242s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.4 Button Menu Kondisi Kendaraan Used""), 0)",,,,2022-07-20 16:54:11,2022-07-20 16:54:11,0.003s,NOT_RUN
+"setText(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.5 Input Harga Kendaraan""), ""500,000,000"", 0)",,,,2022-07-20 16:54:11,2022-07-20 16:54:14,2.818s,PASSED
+"setText(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.6 Input DP Awal""), ""35"", 0)",,,,2022-07-20 16:54:14,2022-07-20 16:54:16,1.209s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.7 Pilih Asuransi""), 0)",,,,2022-07-20 16:54:16,2022-07-20 16:54:16,0.977s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.8.1 Type Asuransi Comprehensive""), 0)",,,,2022-07-20 16:54:16,2022-07-20 16:54:19,2.114s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:54:19,2022-07-20 16:54:22,3.006s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Pengajuan Reguler 2"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:54:22,2022-07-20 16:54:24,2.850s,PASSED
+"swipe(0, 800, 0, 500)",,,,2022-07-20 16:54:24,2022-07-20 16:54:26,1.663s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.9 Pilih Zona Lokasi""), 0)",,,,2022-07-20 16:54:26,2022-07-20 16:54:27,0.859s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.10.1 Zona Jakarta, Jawa Barat dan Banten""), 0)",,,,2022-07-20 16:54:27,2022-07-20 16:54:28,1.411s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:54:28,2022-07-20 16:54:31,3.008s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Pengajuan Reguler 3"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:54:31,2022-07-20 16:54:34,2.922s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.11 Button Simulasi Kredit""), 0)",,,,2022-07-20 16:54:34,2022-07-20 16:54:35,0.968s,PASSED
+"comment(""Halaman Detail Angsuran Didepan"")",,,,2022-07-20 16:54:35,2022-07-20 16:54:35,0.007s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:54:35,2022-07-20 16:54:38,3.014s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Pengajuan Reguler 4"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:54:38,2022-07-20 16:54:44,5.384s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.12 Button Angsuran Dibelakang""), 0)",,,,2022-07-20 16:54:44,2022-07-20 16:54:44,0.742s,PASSED
+"comment(""Halaman Detail Angsuran Dibelakang"")",,,,2022-07-20 16:54:44,2022-07-20 16:54:44,0.006s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:54:44,2022-07-20 16:54:47,3.009s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Pengajuan Reguler 5"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:54:47,2022-07-20 16:54:51,3.135s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.13 Pilih Tenor 4Thn""), 0)",,,,2022-07-20 16:54:51,2022-07-20 16:54:52,0.999s,PASSED
+"comment(""Halaman Detail Angsuran Perbulan"")",,,,2022-07-20 16:54:52,2022-07-20 16:54:52,0.005s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:54:52,2022-07-20 16:54:55,3.011s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Pengajuan Reguler 6"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:54:55,2022-07-20 16:54:58,2.994s,PASSED
+"tap(findTestObject(""APN_Apply Online/Pengajuan Reguler/1.14 Button Pengajuan""), 0)",,,,2022-07-20 16:54:58,2022-07-20 16:54:59,1.041s,PASSED
+,,,,,,,
+Test Cases/APN_ApplyOnlie/Reguler/1.3.2 Data Konsumen - Upload Gallery AVD,,,,2022-07-20 16:54:59,2022-07-20 16:57:14,2m - 15.361s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-07-20 16:55:01,2022-07-20 16:55:01,0.003s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"")",,,,2022-07-20 16:55:01,2022-07-20 16:55:21,20.463s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:55:21,2022-07-20 16:55:24,3.012s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Data Konsumen 1"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:55:24,2022-07-20 16:55:27,2.844s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.1 Button Upload File KTP""), 0)",,,,2022-07-20 16:55:27,2022-07-20 16:55:30,2.772s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery""), 0)",,,,2022-07-20 16:55:30,2022-07-20 16:55:31,1.514s,PASSED
+"scrollToText(""Upload File"")",,,,2022-07-20 16:55:31,2022-07-20 16:55:31,0.001s,NOT_RUN
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download""), 0)",,,,2022-07-20 16:55:31,2022-07-20 16:55:36,4.298s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP""), 0)",,,,2022-07-20 16:55:36,2022-07-20 16:55:40,4.405s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.5 Button Upload File KTP Pasangan""), 0)",,,,2022-07-20 16:55:40,2022-07-20 16:55:45,4.906s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery""), 0)",,,,2022-07-20 16:55:45,2022-07-20 16:55:46,1.201s,PASSED
+"scrollToText(""Upload File"")",,,,2022-07-20 16:55:46,2022-07-20 16:55:46,0.002s,NOT_RUN
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download""), 0)",,,,2022-07-20 16:55:46,2022-07-20 16:55:49,2.334s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KTP Pasangan""), 0)",,,,2022-07-20 16:55:49,2022-07-20 16:55:53,4.415s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.8 Button Upload File KK""), 0)",,,,2022-07-20 16:55:53,2022-07-20 16:55:55,2.088s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery""), 0)",,,,2022-07-20 16:55:55,2022-07-20 16:55:56,1.208s,PASSED
+"scrollToText(""Upload FIle"")",,,,2022-07-20 16:55:56,2022-07-20 16:55:56,0.002s,NOT_RUN
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download""), 0)",,,,2022-07-20 16:55:56,2022-07-20 16:55:59,2.664s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/File KK""), 0)",,,,2022-07-20 16:55:59,2022-07-20 16:56:04,5.402s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.11 Button Upload File NPWP""), 0)",,,,2022-07-20 16:56:04,2022-07-20 16:56:06,1.911s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.2 Pilih Upload dari Gallery""), 0)",,,,2022-07-20 16:56:06,2022-07-20 16:56:07,0.992s,PASSED
+"scrollToText(""Upload File"")",,,,2022-07-20 16:56:07,2022-07-20 16:56:07,0.002s,NOT_RUN
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Button Folder Download""), 0)",,,,2022-07-20 16:56:07,2022-07-20 16:56:09,1.916s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/File NPWP""), 0)",,,,2022-07-20 16:56:09,2022-07-20 16:56:11,1.826s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:56:11,2022-07-20 16:56:14,3.013s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Data Konsumen 2"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:56:14,2022-07-20 16:56:18,3.565s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.15 Button Lanjut""), 0)",,,,2022-07-20 16:56:18,2022-07-20 16:56:19,1.572s,PASSED
+delay(15),,,,2022-07-20 16:56:19,2022-07-20 16:56:34,15.010s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Nama""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""Nama"", 1), 0)",,,,2022-07-20 16:56:34,2022-07-20 16:56:43,8.481s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Alamat""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""Alamat"", 1), 0)",,,,2022-07-20 16:56:43,2022-07-20 16:56:44,1.779s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Provinsi""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""Provinsi"", 1), 0)",,,,2022-07-20 16:56:44,2022-07-20 16:56:46,1.726s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kabupaten""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""Kabupaten"", 1), 0)",,,,2022-07-20 16:56:46,2022-07-20 16:56:48,1.329s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Kode Pos""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""Kode Pos"", 1), 0)",,,,2022-07-20 16:56:48,2022-07-20 16:56:49,1.912s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Telp1""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""No Telp1"", 1), 0)",,,,2022-07-20 16:56:49,2022-07-20 16:56:51,1.794s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:56:51,2022-07-20 16:56:54,3.025s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Data Konsumen 3"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:56:54,2022-07-20 16:56:57,2.839s,PASSED
+"scrollToText(""Keterangan"", STOP_ON_FAILURE)",,,,2022-07-20 16:56:57,2022-07-20 16:57:03,6.309s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/No Rekening""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""No Rekening"", 1), 0)",,,,2022-07-20 16:57:03,2022-07-20 16:57:05,1.910s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Konsumen/AVD Upload Gallery/Keterangan""), findTestData(""Data_Konsumen_ApplyOnline"").getObjectValue(""Keterangan"", 1), 0)",,,,2022-07-20 16:57:05,2022-07-20 16:57:07,1.848s,PASSED
+"delay(3, STOP_ON_FAILURE)",,,,2022-07-20 16:57:07,2022-07-20 16:57:10,3.021s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Data Konsumen 4"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:57:10,2022-07-20 16:57:13,2.826s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Konsumen/1.22 Button Lanjut 2""), 0)",,,,2022-07-20 16:57:13,2022-07-20 16:57:14,1.038s,PASSED
+,,,,,,,
+Test Cases/APN_ApplyOnlie/Reguler/1.2 Data Kendaraan,,,,2022-07-20 16:57:14,2022-07-20 16:57:57,42.707s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-07-20 16:57:16,2022-07-20 16:57:16,0.003s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"")",,,,2022-07-20 16:57:16,2022-07-20 16:57:37,20.872s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-20 16:57:37,2022-07-20 16:57:39,2.022s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Data Kenaraan 1"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:57:39,2022-07-20 16:57:41,2.600s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Kendaraan/1.1 Radio Button Pilih Merk Kendaraan""), 0)",,,,2022-07-20 16:57:41,2022-07-20 16:57:43,2.038s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Kendaraan/1.2 Input Merk Kendaraan""), ""Honda"", 0)",,,,2022-07-20 16:57:43,2022-07-20 16:57:46,2.503s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Kendaraan/1.3 Pilih Merk Kendaraan""), 0)",,,,2022-07-20 16:57:46,2022-07-20 16:57:47,1.044s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Kendaraan/1.4 Radio Button Pilih Model Kendaraan""), 0)",,,,2022-07-20 16:57:47,2022-07-20 16:57:49,2.066s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Kendaraan/1.5 Pilih Model Kendaraan""), 0)",,,,2022-07-20 16:57:49,2022-07-20 16:57:50,0.892s,PASSED
+"setText(findTestObject(""APN_Apply Online/Data Kendaraan/1.6 Input Type Kendaraan""), ""TIPE - RR"", 0)",,,,2022-07-20 16:57:50,2022-07-20 16:57:52,2.050s,PASSED
+"delay(2, STOP_ON_FAILURE)",,,,2022-07-20 16:57:52,2022-07-20 16:57:54,2.022s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathapplyonline + ""Data Kenaraan 2"" + "".png"", STOP_ON_FAILURE)",,,,2022-07-20 16:57:54,2022-07-20 16:57:57,2.699s,PASSED
+"tap(findTestObject(""APN_Apply Online/Data Kendaraan/1.6 Button Submit - Simpan""), 0)",,,,2022-07-20 16:57:57,2022-07-20 16:57:57,0.002s,NOT_RUN

@@ -1,0 +1,53 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3. Login - billing belum dibayar,,,,2022-06-28 13:33:28,2022-06-28 13:36:09,2m - 41.211s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 4/4.1. Login - konsumen,,,,2022-06-28 13:33:29,2022-06-28 13:34:22,53.436s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-28 13:33:30,2022-06-28 13:33:30,0.006s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-28 13:33:30,2022-06-28 13:33:48,18.448s,PASSED
+delay(8),,,,2022-06-28 13:33:48,2022-06-28 13:33:56,8.107s,PASSED
+"element = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-28 13:33:56,2022-06-28 13:33:57,0.933s,PASSED
+element.click(),,,,2022-06-28 13:33:57,2022-06-28 13:33:57,0.171s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Login"", 16), 0)",,,,2022-06-28 13:33:57,2022-06-28 13:34:00,2.446s,PASSED
+"setText(findTestObject(""DMS_FINA_Mobile/FINA_Login/Login_Password_Text""), findTestData(""DMS_Asr_Cakpro"").getObjectValue(""Pass"", 16), 0)",,,,2022-06-28 13:34:00,2022-06-28 13:34:01,1.427s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.1-input username dan password"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:34:01,2022-06-28 13:34:05,3.324s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/FINA_Login_Button""), 0)",,set user login,,2022-06-28 13:34:05,2022-06-28 13:34:05,0.887s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-06-28 13:34:05,2022-06-28 13:34:11,5.017s,PASSED
+"scrollToText(""Suku Bunga"", STOP_ON_FAILURE)",,,,2022-06-28 13:34:11,2022-06-28 13:34:16,5.742s,PASSED
+"elementAccount = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-28 13:34:16,2022-06-28 13:34:17,0.734s,PASSED
+elementAccount.click(),,,,2022-06-28 13:34:17,2022-06-28 13:34:17,0.099s,PASSED
+delay(2),,,,2022-06-28 13:34:17,2022-06-28 13:34:19,2.055s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.2-berhasil login"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:34:19,2022-06-28 13:34:21,2.040s,PASSED
+"elementHome = findElement(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Home_Button""), 10)",,,,2022-06-28 13:34:21,2022-06-28 13:34:22,0.733s,PASSED
+elementHome.click(),,,,2022-06-28 13:34:22,2022-06-28 13:34:22,0.108s,PASSED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 4/4.4. Billing belum dibayar,,,,2022-06-28 13:34:22,2022-06-28 13:36:09,1m - 47.236s,PASSED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-28 13:34:23,2022-06-28 13:34:23,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-28 13:34:23,2022-06-28 13:34:34,11.483s,PASSED
+delay(8),,,,2022-06-28 13:34:34,2022-06-28 13:34:42,8.016s,PASSED
+pressBack(),,,,2022-06-28 13:34:42,2022-06-28 13:34:43,0.433s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Login/android.widget.Button - TIDAK""), 0)",,,,2022-06-28 13:34:43,2022-06-28 13:34:46,2.862s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_BottomNav_Billing_Button""), 0)",,,,2022-06-28 13:34:46,2022-06-28 13:34:47,1.483s,PASSED
+delay(20),,,,2022-06-28 13:34:47,2022-06-28 13:35:07,20.021s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.10-list billing belum dibayar"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:35:07,2022-06-28 13:35:09,1.803s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Sudah Dibayar""), 0)",,,,2022-06-28 13:35:09,2022-06-28 13:35:11,1.947s,PASSED
+delay(2),,,,2022-06-28 13:35:11,2022-06-28 13:35:13,2.023s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.11-list billing sudah dibayar"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:35:13,2022-06-28 13:35:15,1.918s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Belum Dibayar""), 0)",,,,2022-06-28 13:35:15,2022-06-28 13:35:17,2.086s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/FINA_Billing_List1_Button""), 0)",,,,2022-06-28 13:35:17,2022-06-28 13:35:19,1.983s,PASSED
+delay(20),,,,2022-06-28 13:35:19,2022-06-28 13:35:39,20.019s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.12-detail billing belum dibayar"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:35:39,2022-06-28 13:35:41,2.070s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Email_Button""), 0)",,,,2022-06-28 13:35:41,2022-06-28 13:35:42,1.410s,PASSED
+delay(2),,,,2022-06-28 13:35:42,2022-06-28 13:35:44,2.009s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.13-kirim email billing"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:35:44,2022-06-28 13:35:47,2.012s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Kirim_email_Button""), 0)",,,,2022-06-28 13:35:47,2022-06-28 13:35:47,0.784s,PASSED
+delay(9),,,,2022-06-28 13:35:47,2022-06-28 13:35:56,9.013s,PASSED
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.14-dokumen terkirim"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:35:56,2022-06-28 13:35:58,1.935s,PASSED
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/FINA_Billing_Download_Button""), 0)",,,,2022-06-28 13:35:58,2022-06-28 13:35:58,0.002s,NOT_RUN
+delay(5),,,,2022-06-28 13:35:58,2022-06-28 13:35:58,0.002s,NOT_RUN
+"takeScreenshotAsCheckpoint(baseDir + sspathasuransicakpro + ""skenario-4.15-dokumen tersimpan"" + "".png"", STOP_ON_FAILURE)",,,,2022-06-28 13:35:58,2022-06-28 13:35:58,0.001s,NOT_RUN
+"tap(findTestObject(""DMS_FINA_Mobile/FINA_Billing/android_Save Doc_Button""), 0)",,,,2022-06-28 13:35:58,2022-06-28 13:35:58,0.001s,NOT_RUN
+pressBack(),,,,2022-06-28 13:35:58,2022-06-28 13:35:59,0.914s,PASSED
+pressBack(),,,,2022-06-28 13:35:59,2022-06-28 13:36:00,0.824s,PASSED
+"Account = findElement(findTestObject(""Object Repository/DMS_FINA_Mobile/FINA_BottomNav_Account_Button""), 10)",,,,2022-06-28 13:36:00,2022-06-28 13:36:03,3.190s,PASSED
+Account.click(),,,,2022-06-28 13:36:03,2022-06-28 13:36:04,1.085s,PASSED
+delay(5),,,,2022-06-28 13:36:04,2022-06-28 13:36:09,5.009s,PASSED

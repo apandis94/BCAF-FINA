@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "94FDCC328CD08C43FC5CF57F6E1B981B",
+  "keywordClasses": [
+    {
+      "name": "fina.klikbutton",
+      "keywordMethods": [
+        {
+          "name": "buttonlain",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

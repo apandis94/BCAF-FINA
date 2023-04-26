@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02.03 - Role - Edit Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d23a199a-6b7f-4465-b444-4e2195477a86</testCaseGuid>
+   <variable>
+      <defaultValue>'Tes Katalon12'</defaultValue>
+      <description></description>
+      <id>20bbe11c-65fa-4b04-ae6a-2b5dd342c33f</id>
+      <masked>false</masked>
+      <name>FINA_Rolename</name>
+   </variable>
+</TestCaseEntity>

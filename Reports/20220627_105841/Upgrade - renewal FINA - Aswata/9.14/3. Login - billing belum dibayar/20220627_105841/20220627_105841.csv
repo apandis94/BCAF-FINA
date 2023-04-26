@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+3. Login - billing belum dibayar,,,,2022-06-27 10:59:03,2022-06-27 10:59:30,26.708s,FAILED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 9.14/14.1. Login - konsumen,,,,2022-06-27 10:59:04,2022-06-27 10:59:22,17.840s,FAILED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-27 10:59:05,2022-06-27 10:59:05,0.004s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-27 10:59:05,2022-06-27 10:59:22,16.639s,FAILED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 9.14/14.4. Billing belum dibayar,,,,2022-06-27 10:59:22,2022-06-27 10:59:30,8.064s,FAILED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-27 10:59:23,2022-06-27 10:59:23,0.003s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-27 10:59:23,2022-06-27 10:59:30,6.895s,FAILED

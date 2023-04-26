@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+1. Login - submit,,,,2022-06-28 10:29:58,2022-06-28 10:30:01,3.211s,FAILED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 5/5.1. Login - konsumen,,,,2022-06-28 10:30:00,2022-06-28 10:30:00,0.059s,FAILED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-28 10:30:00,2022-06-28 10:30:00,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-28 10:30:00,2022-06-28 10:30:00,0.021s,FAILED
+,,,,,,,
+Test Cases/DMS_Renewal dan Upgrade Asuransi Aswata/Matriks 5/5.2. Upgrade Asuransi,,,,2022-06-28 10:30:01,2022-06-28 10:30:01,0.072s,FAILED
+"baseDir = System.getProperty(""user.dir"")",,Get directory project,,2022-06-28 10:30:01,2022-06-28 10:30:01,0.001s,PASSED
+"startExistingApplication(""com.vq.mbrochuregp.client.android"", STOP_ON_FAILURE)",,,,2022-06-28 10:30:01,2022-06-28 10:30:01,0.014s,FAILED

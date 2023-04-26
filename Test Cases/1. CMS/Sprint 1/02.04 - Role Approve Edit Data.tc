@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>02.04 - Role Approve Edit Data</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cabd18fb-aaab-40d1-b0a1-400ca56c0703</testCaseGuid>
+   <variable>
+      <defaultValue>'Tes Katalon12'</defaultValue>
+      <description></description>
+      <id>8ae6b851-c19a-492d-85b3-cb18bc7f16d8</id>
+      <masked>false</masked>
+      <name>FINA_Rolename</name>
+   </variable>
+</TestCaseEntity>

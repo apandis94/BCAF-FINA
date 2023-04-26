@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataFileEntity>
+   <description>Data yang dibuat untuk cek validasi login - sprint 2</description>
+   <name>YEP_Cek Validasi Login</name>
+   <tag></tag>
+   <containsHeaders>true</containsHeaders>
+   <csvSeperator></csvSeperator>
+   <dataFileGUID>e1cc8af8-48dd-4dd6-adee-d9591a013b2d</dataFileGUID>
+   <dataSourceUrl>D:\GitHub\katalon-fina\Excel\Matriks Cek Login.xlsx</dataSourceUrl>
+   <driver>ExcelFile</driver>
+   <isInternalPath>false</isInternalPath>
+   <query></query>
+   <secureUserAccount>false</secureUserAccount>
+   <sheetName>Testing</sheetName>
+   <usingGlobalDBSetting>false</usingGlobalDBSetting>
+</DataFileEntity>

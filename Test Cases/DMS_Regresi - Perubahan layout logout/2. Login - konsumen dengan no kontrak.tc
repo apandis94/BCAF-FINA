@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>2. Login - konsumen dengan no kontrak</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>11332a3e-ca91-4bcb-94cd-c6adb19cee63</testCaseGuid>
+   <variable>
+      <defaultValue>'lisharyani@mailinator.com'</defaultValue>
+      <description></description>
+      <id>77759653-7e00-4158-9cf1-bf989bab5154</id>
+      <masked>false</masked>
+      <name>FINA_username_Konsumen</name>
+   </variable>
+   <variable>
+      <defaultValue>'123abc'</defaultValue>
+      <description></description>
+      <id>09934dca-c920-435d-9bf5-381e42f45643</id>
+      <masked>false</masked>
+      <name>FINA_password_Konsumen</name>
+   </variable>
+</TestCaseEntity>

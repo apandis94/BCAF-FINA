@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5.5 Simulasi Kredit Reguler - Matriks 5</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c9346b14-ea74-41ff-9a5c-5a022793b8f3</testCaseGuid>
+   <variable>
+      <defaultValue>'300000000\r\n'</defaultValue>
+      <description></description>
+      <id>ea98d6ba-dc4f-4550-9a0f-2ab147e42c82</id>
+      <masked>false</masked>
+      <name>Simulasi_OTR</name>
+   </variable>
+   <variable>
+      <defaultValue>'30\r\n'</defaultValue>
+      <description></description>
+      <id>8a0ce2fe-24f3-4c4c-86a1-b57b6434659c</id>
+      <masked>false</masked>
+      <name>DP_persen</name>
+   </variable>
+</TestCaseEntity>

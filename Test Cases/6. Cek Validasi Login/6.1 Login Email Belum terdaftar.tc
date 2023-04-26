@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>6.1 Login Email Belum terdaftar</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>03f15ea0-2dd9-4e1c-ba41-1a2851904928</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>69a43f88-ab74-4231-a6c8-b143f807466b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>72c5c324-e6a4-4653-a93c-cc1749541ec6</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>1.1 Pengajuan Apply Reguler</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3a9d63f4-00c6-4f2f-87f2-5158424e9fa2</testCaseGuid>
+   <variable>
+      <defaultValue>'1 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AM_Tenor_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'2 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AM_Tenor_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'3 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AM_Tenor_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'4 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AM_Tenor_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'5 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AM_Tenor_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'6 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AM_Tenor_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 219,552,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AM_DP_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 213,431,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AM_DP_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 217,460,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AM_DP_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 223,815,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AM_DP_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 230,893,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AM_DP_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 237,505,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AM_DP_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 29,226,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 15,166,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 10,489,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 8,279,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 7,204,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 7,380,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_5_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 6,475,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 6,601,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AM_Angsuran_6_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'1 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AB_Tenor_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'2 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AB_Tenor_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'3 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AB_Tenor_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'4 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AB_Tenor_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'5 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AB_Tenor_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'6 thn'</defaultValue>
+      <description></description>
+      <id>1afd5483-9d2c-49ac-ae08-fa6f0189518e</id>
+      <masked>false</masked>
+      <name>AB_Tenor_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 175,764,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AB_DP_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 175,764,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AB_DP_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 175,764,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AB_DP_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 175,764,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AB_DP_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 175,764,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AB_DP_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 175,764,000'</defaultValue>
+      <description></description>
+      <id>fbdc3b7e-281b-451f-9895-f37e5d06af43</id>
+      <masked>false</masked>
+      <name>AB_DP_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 29,889,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 15,836,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 11,177,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_3</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 9,013,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_4</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 8,027,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_5</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 8,248,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_5_1</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 7,272,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_6</name>
+   </variable>
+   <variable>
+      <defaultValue>'Rp 7,439,000'</defaultValue>
+      <description></description>
+      <id>d8d2fa2e-35c2-4da1-9c48-cf3c92b7f190</id>
+      <masked>false</masked>
+      <name>AB_Angsuran_6_1</name>
+   </variable>
+</TestCaseEntity>

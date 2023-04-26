@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="FINA - API Payment" time="15.204" tests="7" failures="0" errors="0">
+   <testsuite name="FINA - API Payment" tests="7" failures="0" errors="0" time="15.204" skipped="0" timestamp="2022-06-27 11:37:07" hostname="Nia Yusniati - Apandi" id="Test Suites/FINA - API Payment">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220627_113650\\FINA - API Payment\\20220627_113650"/>
+         <property name="logFiles" value="C:\\Users\\Nia Yusniati\\Git_Asa\\katalon-fina\\Reports\\20220627_113650\\FINA - API Payment\\20220627_113650\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Nia Yusniati - Apandi"/>
+         <property name="hostAddress" value="192.168.250.27"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.1.0.208"/>
+      </properties>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="5.115" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:08 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:09 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:13 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\0.har
+
+2022-06-27 11:37:13 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:13 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:13 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 1
+
+2022-06-27 11:37:13 - [MESSAGE][PASSED] - result payment data ke : 1
+
+2022-06-27 11:37:13 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600011",
+  "RequestID" : "1110003586001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "ZEMI",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "914000.00",
+  "TotalAmount" : "914000.00",
+  "TransactionDate" : "27/06/2022 12:00:01",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Upgrade Asuransi",
+    "English" : "Insurance Upgrade"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:13 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600011",
+  "RequestID" : "1110003586001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "ZEMI",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "914000.00",
+  "TotalAmount" : "914000.00",
+  "TransactionDate" : "27/06/2022 12:00:01",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Upgrade Asuransi",
+    "English" : "Insurance Upgrade"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="0.518" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:13 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:13 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:14 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\1.har
+
+2022-06-27 11:37:14 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:14 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:14 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 2
+
+2022-06-27 11:37:14 - [MESSAGE][PASSED] - result payment data ke : 2
+
+2022-06-27 11:37:14 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600012",
+  "RequestID" : "9891035116003-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "Ratna Komala",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "795900.00",
+  "TotalAmount" : "795900.00",
+  "TransactionDate" : "27/06/2022 12:00:05",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:14 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600012",
+  "RequestID" : "9891035116003-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "Ratna Komala",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "795900.00",
+  "TotalAmount" : "795900.00",
+  "TransactionDate" : "27/06/2022 12:00:05",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="1.9" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:14 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:14 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:16 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\2.har
+
+2022-06-27 11:37:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 3
+
+2022-06-27 11:37:16 - [MESSAGE][PASSED] - result payment data ke : 3
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600032",
+  "RequestID" : "1110003596001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "TODOROKI",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "2774000.00",
+  "TotalAmount" : "2774000.00",
+  "TransactionDate" : "27/06/2022 12:00:10",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:16 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600032",
+  "RequestID" : "1110003596001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "TODOROKI",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "2774000.00",
+  "TotalAmount" : "2774000.00",
+  "TransactionDate" : "27/06/2022 12:00:10",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="0.429" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:16 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:16 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\3.har
+
+2022-06-27 11:37:16 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 4
+
+2022-06-27 11:37:16 - [MESSAGE][PASSED] - result payment data ke : 4
+
+2022-06-27 11:37:16 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600062",
+  "RequestID" : "1110003594001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "HILDA",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "19634000.00",
+  "TotalAmount" : "19634000.00",
+  "TransactionDate" : "27/06/2022 12:00:15",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:16 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600062",
+  "RequestID" : "1110003594001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "HILDA",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "19634000.00",
+  "TotalAmount" : "19634000.00",
+  "TransactionDate" : "27/06/2022 12:00:15",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="0.528" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:17 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:17 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:17 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\4.har
+
+2022-06-27 11:37:17 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:17 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:17 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 5
+
+2022-06-27 11:37:17 - [MESSAGE][PASSED] - result payment data ke : 5
+
+2022-06-27 11:37:17 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600022",
+  "RequestID" : "9510015795001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "Lukman Nul Hakim",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "2276000.00",
+  "TotalAmount" : "2276000.00",
+  "TransactionDate" : "27/06/2022 12:00:20",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:17 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600022",
+  "RequestID" : "9510015795001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "Lukman Nul Hakim",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "2276000.00",
+  "TotalAmount" : "2276000.00",
+  "TransactionDate" : "27/06/2022 12:00:20",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="3.558" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:17 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:17 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:21 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\5.har
+
+2022-06-27 11:37:21 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:21 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:21 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 6
+
+2022-06-27 11:37:21 - [MESSAGE][PASSED] - result payment data ke : 6
+
+2022-06-27 11:37:21 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600052",
+  "RequestID" : "1110003599001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "YUNI KHUYNJI",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "5294000.00",
+  "TotalAmount" : "5294000.00",
+  "TransactionDate" : "27/06/2022 12:00:25",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:21 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600052",
+  "RequestID" : "1110003599001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "YUNI KHUYNJI",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "5294000.00",
+  "TotalAmount" : "5294000.00",
+  "TransactionDate" : "27/06/2022 12:00:25",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/DMS_FINA_API/FINA_Payment_VA" time="0.403" classname="Test Cases/DMS_FINA_API/FINA_Payment_VA" status="PASSED">
+         <system-out><![CDATA[2022-06-27 11:37:21 - [TEST_CASE][PASSED] - Test Cases/DMS_FINA_API/FINA_Payment_VA: Test Cases/DMS_FINA_API/FINA_Payment_VA
+
+2022-06-27 11:37:21 - [TEST_STEP][PASSED] - payment = sendRequest(findTestObject("DMS_FINA_API/Payment VA", ["c_code":c_code, "cust_no":cust_no, "req_id":req_id, "channel_type":channel_type, "cust_name":cust_name, "paid_amount":paid_amount, ... ])): Send request successfully
+
+2022-06-27 11:37:22 - [MESSAGE][INFO] - HAR: C:\Users\Nia Yusniati\Git_Asa\katalon-fina\Reports\20220627_113650\FINA - API Payment\20220627_113650\requests\main\6.har
+
+2022-06-27 11:37:22 - [MESSAGE][PASSED] - Send request successfully
+
+2022-06-27 11:37:22 - [TEST_STEP][PASSED] - response = payment.getResponseText(): null
+
+2022-06-27 11:37:22 - [TEST_STEP][PASSED] - markPassed("result payment data ke : " + no): result payment data ke : 7
+
+2022-06-27 11:37:22 - [MESSAGE][PASSED] - result payment data ke : 7
+
+2022-06-27 11:37:22 - [TEST_STEP][PASSED] - logInfo($response): {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600042",
+  "RequestID" : "1110703593001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "IBRAHIM",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "14914000.00",
+  "TotalAmount" : "14914000.00",
+  "TransactionDate" : "27/06/2022 12:00:30",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}
+
+2022-06-27 11:37:22 - [MESSAGE][INFO] - {
+  "CompanyCode" : "55000",
+  "CustomerNumber" : "270600042",
+  "RequestID" : "1110703593001-1",
+  "PaymentFlagStatus" : "00",
+  "PaymentFlagReason" : {
+    "Indonesian" : "Sukses",
+    "English" : "Success"
+  },
+  "CustomerName" : "IBRAHIM",
+  "CurrencyCode" : "IDR",
+  "PaidAmount" : "14914000.00",
+  "TotalAmount" : "14914000.00",
+  "TransactionDate" : "27/06/2022 12:00:30",
+  "DetailBills" : null,
+  "FreeTexts" : [ {
+    "Indonesian" : "Renewal Asuransi",
+    "English" : "Insurance Renewal"
+  } ],
+  "AdditionalData" : ""
+}]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-06-27 11:37:07 - [TEST_SUITE][PASSED] - FINA - API Payment: Test Cases/DMS_FINA_API/FINA_Payment_VA]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>05.02 - Report User ID External</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>302797dc-fada-4ec1-827d-19fd6df7272a</testCaseGuid>
+   <variable>
+      <defaultValue>GlobalVariable.FINA_cust</defaultValue>
+      <description></description>
+      <id>8932b36a-6190-4515-805c-4dc949514994</id>
+      <masked>false</masked>
+      <name>FINA_cust</name>
+   </variable>
+</TestCaseEntity>
